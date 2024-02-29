@@ -2,7 +2,7 @@
 ## How to request your Spotify listening history
 1. Go to https://www.spotify.com/ca-en/account/privacy/
 2. Login to your spotify account (if needed)
-3. Scroll all the way down and click the box for "Extended Streaming History' and "Account Data"
+3. Scroll all the way down and click the box for "Extended Streaming History" and "Account Data"
 4. then click "Request Data"
 5. You should get a email from spotify for a confirmation, just do whatever it says.
 
