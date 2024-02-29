@@ -14,7 +14,7 @@
 5. run ```python reader.py```
 6. when ran it should print "Pick a JSON: " if it says that and the "Streaming_History_music_*.json" json is in the folder press 1
 7. allow it to process the streams (this should take a couple seconds)
-8. when done it will print your top 10 artists as well as you top 10 songs, if you type "n" to writing a stats.txt file it will contain more information and save in the same directory, type y to customize how much artists you want in the stats.txt file.
+8. when done it will print your top 10 artists as well as you top 10 songs, if you type "n" to writing a stats.txt file it will contain 50 artists and 50 songs and save in the same directory, type y to customize how much artists/songs you want in the stats.txt file.
 
 ## Examples
 1. [command prompt output](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/examples/CommandPromptOutput.txt)
