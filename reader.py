@@ -46,8 +46,7 @@ while True:
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-# Load the JSON file into a DataFrame
-with open(file_dir, 'r') as f:
+with open(file_dir, 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
