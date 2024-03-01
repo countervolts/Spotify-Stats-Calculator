@@ -1,594 +1,610 @@
--> NOTE: this will not always show 60 artists/songs based off the customization from the user (default/auto generated = 50 of both artists and songs)
-
-Total streams: 20,697
-Total minutes streamed: 55,693.25
-Total hours streamed: 928.2
-Different tracks: 1,779
-Different artists: 619
+Total streams: 11,716
+Total minutes streamed: 22,933.4
+Total hours streamed: 382.2
+Different tracks: 1,705
+Different artists: 798
 
 Top 60 Most Streamed Artists:
 ------------------------------
-"$uicideboy$" listened for 351.5 hours (21,090.00 minutes)
-   -> first listened on: 2023-04-13
-   -> first song streamed: $uicideboy$ - ...And to Those I Love, Thanks for Sticking Around
-   -> total listening time: 351.5 hours (21,090.00 minutes)
-   -> most streamed song: $uicideboy$ - Hot Razor - 12.8 hours (768.63 minutes)
+"$uicideboy$" listened for 71.1 hours (4,266.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Champagne Face
+   -> total listening time: 71.1 hours (4,266.00 minutes)
+   -> most streamed song: Whole Lotta Grey - 5.5 hours (331.08 minutes)
 
-"Tyler, The Creator" listened for 64.8 hours (3,888.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Tyler, The Creator - GONE, GONE / THANK YOU
-   -> total listening time: 64.8 hours (3,888.00 minutes)
-   -> most streamed song: Tyler, The Creator - GONE, GONE / THANK YOU - 10.8 hours (646.81 minutes)
+"Kanye West" listened for 62.0 hours (3,720.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: I Wonder
+   -> total listening time: 62.0 hours (3,720.00 minutes)
+   -> most streamed song: Runaway - 6.1 hours (368.09 minutes)
 
-"Germ" listened for 50.9 hours (3,054.00 minutes)
-   -> first listened on: 2023-09-27
-   -> first song streamed: Germ - Fuck Y'all Hoes (feat. $uicideboy$)
-   -> total listening time: 50.9 hours (3,054.00 minutes)
-   -> most streamed song: Germ & Shakewell - Ivory Coast Cocktail - 2.0 hours (120.53 minutes)
+"$NOT" listened for 53.6 hours (3,216.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: GOSHA
+   -> total listening time: 53.6 hours (3,216.00 minutes)
+   -> most streamed song: Immaculate - 3.3 hours (200.43 minutes)
 
-"Shakewell" listened for 30.6 hours (1,836.00 minutes)
-   -> first listened on: 2023-10-04
-   -> first song streamed: Shakewell & Pouya - Terminal Sex
-   -> total listening time: 30.6 hours (1,836.00 minutes)
-   -> most streamed song: Shakewell & $uicideboy$ - Solutions - 0.1 hours (3.62 minutes)
+"Tyler, The Creator" listened for 13.2 hours (792.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: GONE, GONE / THANK YOU
+   -> total listening time: 13.2 hours (792.00 minutes)
+   -> most streamed song: GONE, GONE / THANK YOU - 1.8 hours (105.05 minutes)
 
-"Kanye West" listened for 24.8 hours (1,488.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Kanye West - Devil In a New Dress (feat. Rick Ross)
-   -> total listening time: 24.8 hours (1,488.00 minutes)
-   -> most streamed song: Kanye West - Runaway (feat. Pusha T) - 3.0 hours (177.63 minutes)
-
-"$NOT" listened for 24.5 hours (1,470.00 minutes)
-   -> first listened on: 2023-04-13
-   -> first song streamed: $NOT - Who Do I Trust
-   -> total listening time: 24.5 hours (1,470.00 minutes)
-   -> most streamed song: $NOT - PRESSURE - 2.6 hours (154.57 minutes)
-
-"Joey Bada$$" listened for 22.3 hours (1,338.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Joey Bada$$ - 95 Till Infinity
-   -> total listening time: 22.3 hours (1,338.00 minutes)
-   -> most streamed song: Joey Bada$$ - 95 Till Infinity - 6.2 hours (369.06 minutes)
-
-"Scrim" listened for 18.8 hours (1,128.00 minutes)
-   -> first listened on: 2023-07-04
-   -> first song streamed: Scrim - Jesus Wept
-   -> total listening time: 18.8 hours (1,128.00 minutes)
-   -> most streamed song: Scrim - paradise - 1.4 hours (86.20 minutes)
-
-"Kendrick Lamar" listened for 18.7 hours (1,122.00 minutes)
-   -> first listened on: 2023-04-13
-   -> first song streamed: Kendrick Lamar - PRIDE.
-   -> total listening time: 18.7 hours (1,122.00 minutes)
-   -> most streamed song: Kendrick Lamar - m.A.A.d city (feat. MC Eiht) - 4.6 hours (274.54 minutes)
-
-"Playboi Carti" listened for 16.9 hours (1,014.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Playboi Carti - Location
-   -> total listening time: 16.9 hours (1,014.00 minutes)
-   -> most streamed song: Playboi Carti - Long Time (Intro) - 3.3 hours (198.67 minutes)
-
-"MF DOOM" listened for 15.6 hours (936.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: MF DOOM - Rhymes Like Dimes (feat. DJ Cucumber Slice)
-   -> total listening time: 15.6 hours (936.00 minutes)
-   -> most streamed song: MF DOOM - Doomsday (feat. Pebbles The Invisible Girl) - 3.5 hours (211.39 minutes)
-
-"XXXTENTACION" listened for 15.5 hours (930.00 minutes)
-   -> first listened on: 2020-04-17
-   -> first song streamed: XXXTENTACION - SAD!
-   -> total listening time: 15.5 hours (930.00 minutes)
-   -> most streamed song: XXXTENTACION - vice city - 4.9 hours (293.82 minutes)
-
-"21 Savage" listened for 11.1 hours (666.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: 21 Savage & Metro Boomin - RIP Luv
+"Joey Bada$$" listened for 11.1 hours (666.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: 95 Till Infinity
    -> total listening time: 11.1 hours (666.00 minutes)
-   -> most streamed song: 21 Savage - a lot - 6.1 hours (364.04 minutes)
+   -> most streamed song: Show Me - 4.6 hours (276.75 minutes)
 
-"A$AP Rocky" listened for 9.6 hours (576.00 minutes)
-   -> first listened on: 2023-04-19
-   -> first song streamed: A$AP Rocky - Praise The Lord (Da Shine) [feat. Skepta]
-   -> total listening time: 9.6 hours (576.00 minutes)
-   -> most streamed song: A$AP Rocky - Jukebox Joints (feat. Joe Fox x Kanye West) - 2.2 hours (129.50 minutes)
+"Playboi Carti" listened for 10.9 hours (654.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Shoota (feat. Lil Uzi Vert)
+   -> total listening time: 10.9 hours (654.00 minutes)
+   -> most streamed song: Magnolia - 2.2 hours (129.47 minutes)
 
-"Westside Gunn" listened for 9.4 hours (564.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Westside Gunn & Joey Bada$$ - 327 (feat. Tyler, The Creator & Billie Essco)
-   -> total listening time: 9.4 hours (564.00 minutes)
-   -> most streamed song: Westside Gunn & Joey Bada$$ - 327 (feat. Tyler, The Creator & Billie Essco) - 6.0 hours (361.87 minutes)
+"halberd" listened for 10.3 hours (618.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: no shame in my game.
+   -> total listening time: 10.3 hours (618.00 minutes)
+   -> most streamed song: coffee on the beach. - 2.0 hours (120.02 minutes)
 
-"Steve Lacy" listened for 8.9 hours (534.00 minutes)
-   -> first listened on: 2023-04-19
-   -> first song streamed: Steve Lacy - Bad Habit
-   -> total listening time: 8.9 hours (534.00 minutes)
-   -> most streamed song: Steve Lacy - Thats No Fun - 2.0 hours (119.42 minutes)
-
-"JPEGMAFIA" listened for 8.8 hours (528.00 minutes)
-   -> first listened on: 2023-04-21
-   -> first song streamed: JPEGMAFIA - 1539 N. Calvert
-   -> total listening time: 8.8 hours (528.00 minutes)
-   -> most streamed song: JPEGMAFIA - 1539 N. Calvert - 3.2 hours (192.79 minutes)
-
-"Ramirez" listened for 8.7 hours (522.00 minutes)
-   -> first listened on: 2023-05-19
-   -> first song streamed: Ramirez - P.O.P.
-   -> total listening time: 8.7 hours (522.00 minutes)
-   -> most streamed song: Ramirez - 2 Step Stevie (R.L.P.) - 1.1 hours (67.16 minutes)
-
-"Halberd" listened for 8.2 hours (492.00 minutes)
-   -> first listened on: 2023-04-19
-   -> first song streamed: Halberd - Pm To the Am
-   -> total listening time: 8.2 hours (492.00 minutes)
-   -> most streamed song: Halberd - I Drove Her Home, and Now We're Dating. - 1.3 hours (76.77 minutes)
-
-"Kudasaibeats" listened for 8.1 hours (486.00 minutes)
-   -> first listened on: 2023-04-19
-   -> first song streamed: Kudasaibeats - Technicolor
-   -> total listening time: 8.1 hours (486.00 minutes)
-   -> most streamed song: Kudasaibeats - You Make Colors Out of Grey - 1.3 hours (76.10 minutes)
-
-"DUCKBOY" listened for 7.8 hours (468.00 minutes)
-   -> first listened on: 2023-11-29
-   -> first song streamed: DUCKBOY - after further reasoning, i'm going to bed
-   -> total listening time: 7.8 hours (468.00 minutes)
-   -> most streamed song: DUCKBOY - EXCALIBUR - 5.0 hours (297.17 minutes)
-
-"Lil Mabu" listened for 7.2 hours (432.00 minutes)
-   -> first listened on: 2023-05-08
-   -> first song streamed: Lil Mabu - MATHEMATICAL DISRESPECT
+"Kudasaibeats" listened for 7.2 hours (432.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: runningoutoftime
    -> total listening time: 7.2 hours (432.00 minutes)
-   -> most streamed song: Lil Mabu - MATHEMATICAL DISRESPECT - 2.7 hours (163.36 minutes)
+   -> most streamed song: Technicolor - 1.1 hours (63.10 minutes)
 
-"Project Pat" listened for 6.6 hours (396.00 minutes)
-   -> first listened on: 2023-05-18
-   -> first song streamed: Project Pat - Out There
-   -> total listening time: 6.6 hours (396.00 minutes)
-   -> most streamed song: Project Pat - Out There - 6.6 hours (393.18 minutes)
+"Baby Keem" listened for 6.5 hours (390.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Wolves
+   -> total listening time: 6.5 hours (390.00 minutes)
+   -> most streamed song: vent - 1.5 hours (88.61 minutes)
 
-"Metro Boomin" listened for 6.4 hours (384.00 minutes)
-   -> first listened on: 2023-04-17
-   -> first song streamed: Metro Boomin - 10 Freaky Girls (feat. 21 Savage)
+"Ken Carson" listened for 6.4 hours (384.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: i need u
    -> total listening time: 6.4 hours (384.00 minutes)
-   -> most streamed song: Metro Boomin - 10 Freaky Girls (feat. 21 Savage) - 0.5 hours (31.24 minutes)
+   -> most streamed song: MDMA (feat. Destroy Lonely) - 2.1 hours (127.60 minutes)
 
-"J. Cole" listened for 6.4 hours (384.00 minutes)
-   -> first listened on: 2023-04-19
-   -> first song streamed: J. Cole - No Role Modelz
-   -> total listening time: 6.4 hours (384.00 minutes)
-   -> most streamed song: J. Cole - 03� Adolescence - 4.2 hours (250.47 minutes)
-
-"Lil Uzi Vert" listened for 6.2 hours (372.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Lil Uzi Vert - Neon Guts (feat. Pharrell Williams)
+"Chief Keef" listened for 6.2 hours (372.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Hate Bein' Sober
    -> total listening time: 6.2 hours (372.00 minutes)
-   -> most streamed song: Lil Uzi Vert - Neon Guts (feat. Pharrell Williams) - 0.8 hours (48.63 minutes)
+   -> most streamed song: Hate Bein' Sober - 2.2 hours (131.38 minutes)
 
-"Shoreline Mafia" listened for 6.1 hours (366.00 minutes)
-   -> first listened on: 2023-04-17
-   -> first song streamed: Shoreline Mafia - Whuss the Deal
-   -> total listening time: 6.1 hours (366.00 minutes)
-   -> most streamed song: Shoreline Mafia - Whuss the Deal - 3.0 hours (177.33 minutes)
+"Lil Uzi Vert" listened for 5.9 hours (354.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: 7AM
+   -> total listening time: 5.9 hours (354.00 minutes)
+   -> most streamed song: 7AM - 1.8 hours (107.47 minutes)
 
-"Destroy Lonely" listened for 5.1 hours (306.00 minutes)
-   -> first listened on: 2023-04-19
-   -> first song streamed: Destroy Lonely - NOSTYLIST
-   -> total listening time: 5.1 hours (306.00 minutes)
-   -> most streamed song: Destroy Lonely - Dover Street Market - 1.4 hours (86.04 minutes)
+"Kendrick Lamar" listened for 5.3 hours (318.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: HUMBLE.
+   -> total listening time: 5.3 hours (318.00 minutes)
+   -> most streamed song: HUMBLE. - 1.2 hours (69.52 minutes)
 
-"Earl Sweatshirt" listened for 5.1 hours (306.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Earl Sweatshirt - Shattered Dreams
-   -> total listening time: 5.1 hours (306.00 minutes)
-   -> most streamed song: Earl Sweatshirt - Shattered Dreams - 1.9 hours (115.69 minutes)
-
-"DC The Don" listened for 5.1 hours (306.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: DC The Don - WORST DAY :(
-   -> total listening time: 5.1 hours (306.00 minutes)
-   -> most streamed song: DC The Don - WORST DAY :( - 1.7 hours (99.33 minutes)
-
-"Powfu" listened for 4.9 hours (294.00 minutes)
-   -> first listened on: 2020-04-17
-   -> first song streamed: Powfu - death bed (feat. beabadoobee) [coffee for your head]
+"Destroy Lonely" listened for 4.9 hours (294.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: JETLGGD
    -> total listening time: 4.9 hours (294.00 minutes)
-   -> most streamed song: Powfu - death bed (feat. beabadoobee) [coffee for your head] - 4.6 hours (276.60 minutes)
+   -> most streamed song: Miley Cyrus - 1.3 hours (80.85 minutes)
 
-"Chief Keef" listened for 4.8 hours (288.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Chief Keef - Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa)
-   -> total listening time: 4.8 hours (288.00 minutes)
-   -> most streamed song: Chief Keef - 3Hunna (feat. Rick Ross) - 1.6 hours (97.18 minutes)
+"Cochise" listened for 4.0 hours (240.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: COOK UP
+   -> total listening time: 4.0 hours (240.00 minutes)
+   -> most streamed song: Tell Em - 1.8 hours (109.59 minutes)
 
-"potsu" listened for 4.7 hours (282.00 minutes)
-   -> first listened on: 2023-04-19
-   -> first song streamed: potsu - Fall Apart (feat. Evan Bernardy)
-   -> total listening time: 4.7 hours (282.00 minutes)
-   -> most streamed song: potsu - Bossa Uh - 1.3 hours (77.46 minutes)
+"tana" listened for 3.9 hours (234.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Antisocial 2
+   -> total listening time: 3.9 hours (234.00 minutes)
+   -> most streamed song: Antisocial 2 - 2.7 hours (161.65 minutes)
 
-"Travis Scott" listened for 4.6 hours (276.00 minutes)
-   -> first listened on: 2023-04-13
-   -> first song streamed: Travis Scott - BUTTERFLY EFFECT
-   -> total listening time: 4.6 hours (276.00 minutes)
-   -> most streamed song: Travis Scott - sdp interlude - 2.3 hours (135.10 minutes)
-
-"Baby Keem" listened for 4.6 hours (276.00 minutes)
-   -> first listened on: 2023-04-17
-   -> first song streamed: Baby Keem - HONEST
-   -> total listening time: 4.6 hours (276.00 minutes)
-   -> most streamed song: Baby Keem - HONEST - 1.7 hours (101.92 minutes)
-
-"ilyTOMMY" listened for 4.5 hours (270.00 minutes)
-   -> first listened on: 2020-04-18
-   -> first song streamed: ilyTOMMY - Cutie
-   -> total listening time: 4.5 hours (270.00 minutes)
-   -> most streamed song: ilyTOMMY - Cutie - 2.5 hours (148.28 minutes)
-
-"The Alchemist" listened for 4.4 hours (264.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: The Alchemist - E. Coli (feat. Earl Sweatshirt)
-   -> total listening time: 4.4 hours (264.00 minutes)
-   -> most streamed song: The Alchemist - Nobles (feat. Earl Sweatshirt & Navy Blue) - 1.2 hours (73.27 minutes)
-
-"Cochise" listened for 4.1 hours (246.00 minutes)
-   -> first listened on: 2023-04-19
-   -> first song streamed: Cochise & $NOT - Tell Em
-   -> total listening time: 4.1 hours (246.00 minutes)
-   -> most streamed song: Cochise & $NOT - Tell Em - 2.5 hours (147.20 minutes)
-
-"Denzel Curry" listened for 3.8 hours (228.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Denzel Curry - TABOO l TA13OO
-   -> total listening time: 3.8 hours (228.00 minutes)
-   -> most streamed song: Denzel Curry - BLACK BALLOONS l 13LACK 13ALLOONZ (feat. Twelve'len & GoldLink) - 2.3 hours (136.69 minutes)
-
-"Ken Carson" listened for 3.7 hours (222.00 minutes)
-   -> first listened on: 2023-04-17
-   -> first song streamed: Ken Carson - Murda Musik (feat. Destroy Lonely)
-   -> total listening time: 3.7 hours (222.00 minutes)
-   -> most streamed song: Ken Carson - MDMA (feat. Destroy Lonely) - 0.7 hours (43.60 minutes)
-
-"SSGKobe" listened for 3.6 hours (216.00 minutes)
-   -> first listened on: 2023-04-26
-   -> first song streamed: SSGKobe - Calabasas (feat. $NOT)
+"MF DOOM" listened for 3.6 hours (216.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Hoe Cakes
    -> total listening time: 3.6 hours (216.00 minutes)
-   -> most streamed song: SSGKobe - Calabasas (feat. $NOT) - 2.5 hours (147.58 minutes)
+   -> most streamed song: Hoe Cakes - 1.0 hours (59.08 minutes)
 
-"LUCKI" listened for 3.6 hours (216.00 minutes)
-   -> first listened on: 2023-04-21
-   -> first song streamed: LUCKI - Sunset
-   -> total listening time: 3.6 hours (216.00 minutes)
-   -> most streamed song: LUCKI - Sunset - 2.7 hours (161.48 minutes)
-
-"Danny Brown" listened for 3.6 hours (216.00 minutes)
-   -> first listened on: 2023-04-25
-   -> first song streamed: Danny Brown - Party All the Time
-   -> total listening time: 3.6 hours (216.00 minutes)
-   -> most streamed song: Danny Brown - Party All the Time - 1.2 hours (73.48 minutes)
-
-"Frank Ocean" listened for 3.5 hours (210.00 minutes)
-   -> first listened on: 2023-04-19
-   -> first song streamed: Frank Ocean - Moon River
+"XXXTENTACION" listened for 3.5 hours (210.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: infinity (888) - feat. Joey Bada$$
    -> total listening time: 3.5 hours (210.00 minutes)
-   -> most streamed song: Frank Ocean - Nights - 2.1 hours (125.88 minutes)
+   -> most streamed song: vice city - 1.4 hours (82.25 minutes)
 
-"Logic" listened for 3.5 hours (210.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Logic - Self Medication (feat. Seth MacFarlane, Redman & Statik Selektah)
-   -> total listening time: 3.5 hours (210.00 minutes)
-   -> most streamed song: Logic - Self Medication (feat. Seth MacFarlane, Redman & Statik Selektah) - 3.4 hours (206.58 minutes)
+"potsu" listened for 3.4 hours (204.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: fall apart
+   -> total listening time: 3.4 hours (204.00 minutes)
+   -> most streamed song: runaway - 0.8 hours (47.00 minutes)
 
-"Xavier Wulf" listened for 3.0 hours (180.00 minutes)
-   -> first listened on: 2023-10-10
-   -> first song streamed: Xavier Wulf - Thunder Man
+"Migos" listened for 3.0 hours (180.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Bad and Boujee (feat. Lil Uzi Vert)
    -> total listening time: 3.0 hours (180.00 minutes)
-   -> most streamed song: Xavier Wulf - Thunder Man - 2.9 hours (171.64 minutes)
+   -> most streamed song: BBO (Bad Bitches Only) - 2.2 hours (132.43 minutes)
 
-"Ethereal" listened for 3.0 hours (180.00 minutes)
-   -> first listened on: 2023-04-19
-   -> first song streamed: Ethereal - Beef (feat. Playboi Carti)
-   -> total listening time: 3.0 hours (180.00 minutes)
-   -> most streamed song: Ethereal - Beef (feat. Playboi Carti) - 2.9 hours (171.05 minutes)
+"The Game" listened for 2.6 hours (156.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Eazy
+   -> total listening time: 2.6 hours (156.00 minutes)
+   -> most streamed song: Eazy - 2.5 hours (151.40 minutes)
 
-"The Internet" listened for 2.9 hours (174.00 minutes)
-   -> first listened on: 2023-04-25
-   -> first song streamed: The Internet - Palace / Curse (feat. Steve Lacy & Tyler, The Creator)
-   -> total listening time: 2.9 hours (174.00 minutes)
-   -> most streamed song: The Internet - Palace / Curse (feat. Steve Lacy & Tyler, The Creator) - 2.9 hours (176.57 minutes)
-
-"Bakar" listened for 2.9 hours (174.00 minutes)
-   -> first listened on: 2023-06-03
-   -> first song streamed: Bakar - Hell N Back
-   -> total listening time: 2.9 hours (174.00 minutes)
-   -> most streamed song: Bakar - Hell N Back - 2.9 hours (175.41 minutes)
-
-"swimcoach" listened for 2.9 hours (174.00 minutes)
-   -> first listened on: 2020-04-25
-   -> first song streamed: swimcoach - u U U U u U did i mfken stutter?
-   -> total listening time: 2.9 hours (174.00 minutes)
-   -> most streamed song: swimcoach - u U U U u U did i mfken stutter? - 2.9 hours (175.07 minutes)
-
-"JAY-Z" listened for 2.7 hours (162.00 minutes)
-   -> first listened on: 2023-04-17
-   -> first song streamed: JAY-Z & Kanye West - Ni**as in Paris
-   -> total listening time: 2.7 hours (162.00 minutes)
-   -> most streamed song: JAY-Z & Kanye West - Ni**as in Paris - 2.7 hours (161.83 minutes)
-
-"Migos" listened for 2.7 hours (162.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Migos - BBO (Bad Bitches Only) [feat. 21 Savage]
-   -> total listening time: 2.7 hours (162.00 minutes)
-   -> most streamed song: Migos - BBO (Bad Bitches Only) [feat. 21 Savage] - 2.1 hours (124.25 minutes)
-
-"Mac DeMarco" listened for 2.5 hours (150.00 minutes)
-   -> first listened on: 2023-05-25
-   -> first song streamed: Mac DeMarco - Moonlight on the River
-   -> total listening time: 2.5 hours (150.00 minutes)
-   -> most streamed song: Mac DeMarco - Moonlight on the River - 1.3 hours (76.58 minutes)
-
-"Ice Cube" listened for 2.4 hours (144.00 minutes)
-   -> first listened on: 2023-04-14
-   -> first song streamed: Ice Cube - It Was a Good Day
+"21 Savage" listened for 2.4 hours (144.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Rich Nigga Shit (feat. Young Thug)
    -> total listening time: 2.4 hours (144.00 minutes)
-   -> most streamed song: Ice Cube - It Was a Good Day - 1.5 hours (88.55 minutes)
+   -> most streamed song: a lot - 0.6 hours (37.09 minutes)
 
-"Rex Orange County" listened for 2.4 hours (144.00 minutes)
-   -> first listened on: 2023-04-25
-   -> first song streamed: Rex Orange County - OPEN A WINDOW (feat. Tyler, The Creator)
-   -> total listening time: 2.4 hours (144.00 minutes)
-   -> most streamed song: Rex Orange County - OPEN A WINDOW (feat. Tyler, The Creator) - 1.3 hours (79.62 minutes)
-
-"Famous Dex" listened for 2.3 hours (138.00 minutes)
-   -> first listened on: 2023-04-24
-   -> first song streamed: Famous Dex - PICK IT UP (feat. A$AP Rocky)
-   -> total listening time: 2.3 hours (138.00 minutes)
-   -> most streamed song: Famous Dex - PICK IT UP (feat. A$AP Rocky) - 2.3 hours (139.09 minutes)
-
-"Laufey" listened for 2.2 hours (132.00 minutes)
-   -> first listened on: 2023-08-02
-   -> first song streamed: Laufey - From The Start
+"Travis Scott" listened for 2.2 hours (132.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: 90210 (feat. Kacy Hill)
    -> total listening time: 2.2 hours (132.00 minutes)
-   -> most streamed song: Laufey - From The Start - 2.1 hours (127.16 minutes)
+   -> most streamed song: BUTTERFLY EFFECT - 1.5 hours (87.20 minutes)
+
+"Yeat" listened for 2.2 hours (132.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Talk
+   -> total listening time: 2.2 hours (132.00 minutes)
+   -> most streamed song: Flawl�ss (feat. Lil Uzi Vert) - 1.3 hours (75.35 minutes)
+
+"Shoreline Mafia" listened for 1.9 hours (114.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Perc Popper
+   -> total listening time: 1.9 hours (114.00 minutes)
+   -> most streamed song: Whuss the Deal - 1.4 hours (84.85 minutes)
+
+"REV" listened for 1.9 hours (114.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Devil Lady
+   -> total listening time: 1.9 hours (114.00 minutes)
+   -> most streamed song: Devil Lady - 1.8 hours (110.73 minutes)
+
+"Rich Brian" listened for 1.7 hours (102.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: VIVID
+   -> total listening time: 1.7 hours (102.00 minutes)
+   -> most streamed song: VIVID - 1.7 hours (101.53 minutes)
+
+"KIDS SEE GHOSTS" listened for 1.6 hours (96.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: 4th Dimension
+   -> total listening time: 1.6 hours (96.00 minutes)
+   -> most streamed song: 4th Dimension - 1.6 hours (97.72 minutes)
+
+"Valentine" listened for 1.6 hours (96.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: brain OD
+   -> total listening time: 1.6 hours (96.00 minutes)
+   -> most streamed song: brain OD - 1.5 hours (91.13 minutes)
+
+"Whethan" listened for 1.5 hours (90.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: LOCK IT UP (feat. Yeat, midwxst & Matt Ox)
+   -> total listening time: 1.5 hours (90.00 minutes)
+   -> most streamed song: LOCK IT UP (feat. Yeat, midwxst & Matt Ox) - 1.5 hours (89.68 minutes)
+
+"midwxst" listened for 1.5 hours (90.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: No Smoke (feat. DC The Don)
+   -> total listening time: 1.5 hours (90.00 minutes)
+   -> most streamed song: No Smoke (feat. DC The Don) - 1.5 hours (88.03 minutes)
+
+"jev." listened for 1.5 hours (90.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: where's the confetti?
+   -> total listening time: 1.5 hours (90.00 minutes)
+   -> most streamed song: where's the confetti? - 1.5 hours (87.88 minutes)
+
+"Ibrahim" listened for 1.5 hours (90.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: A World at Peace
+   -> total listening time: 1.5 hours (90.00 minutes)
+   -> most streamed song: A World at Peace - 1.1 hours (65.49 minutes)
+
+"atlas" listened for 1.4 hours (84.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: alarm
+   -> total listening time: 1.4 hours (84.00 minutes)
+   -> most streamed song: alarm - 1.2 hours (70.64 minutes)
+
+"LUCKI" listened for 1.4 hours (84.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Sunset
+   -> total listening time: 1.4 hours (84.00 minutes)
+   -> most streamed song: Sunset - 1.2 hours (73.17 minutes)
+
+"DaBaby" listened for 1.2 hours (72.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Suge
+   -> total listening time: 1.2 hours (72.00 minutes)
+   -> most streamed song: Suge - 0.5 hours (29.64 minutes)
+
+"funeral" listened for 1.2 hours (72.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: none
+   -> total listening time: 1.2 hours (72.00 minutes)
+   -> most streamed song: none - 1.2 hours (70.32 minutes)
+
+"Rick Owens" listened for 1.2 hours (72.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: do the most ...
+   -> total listening time: 1.2 hours (72.00 minutes)
+   -> most streamed song: do the most ... - 1.1 hours (67.87 minutes)
+
+"Yoko Takahashi" listened for 1.1 hours (66.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: The Cruel Angel's Thesis (Director's Edit Version)
+   -> total listening time: 1.1 hours (66.00 minutes)
+   -> most streamed song: The Cruel Angel's Thesis (Director's Edit Version) - 1.1 hours (68.79 minutes)
+
+"wound" listened for 1.1 hours (66.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Hldmyhnd.Wav
+   -> total listening time: 1.1 hours (66.00 minutes)
+   -> most streamed song: Hldmyhnd.Wav - 1.1 hours (66.08 minutes)
+
+"SwuM" listened for 1.0 hours (60.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Blossom
+   -> total listening time: 1.0 hours (60.00 minutes)
+   -> most streamed song: Blossom - 0.5 hours (31.41 minutes)
+
+"Luh Shotty" listened for 1.0 hours (60.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Who Got the Wok
+   -> total listening time: 1.0 hours (60.00 minutes)
+   -> most streamed song: Who Got the Wok - 1.0 hours (59.91 minutes)
+
+"dandelion hands" listened for 1.0 hours (60.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: How To Never Stop Being Sad
+   -> total listening time: 1.0 hours (60.00 minutes)
+   -> most streamed song: How To Never Stop Being Sad - 1.0 hours (59.81 minutes)
+
+"Elijah Who" listened for 1.0 hours (60.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: this girl
+   -> total listening time: 1.0 hours (60.00 minutes)
+   -> most streamed song: this girl - 0.6 hours (33.49 minutes)
+
+"Unknown Artist" listened for 1.0 hours (60.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Unknown Track
+   -> total listening time: 1.0 hours (60.00 minutes)
+   -> most streamed song: Unknown Track - 1.0 hours (57.60 minutes)
+
+"Offset" listened for 0.9 hours (54.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Nightmare
+   -> total listening time: 0.9 hours (54.00 minutes)
+   -> most streamed song: Nightmare - 0.5 hours (32.21 minutes)
+
+"DC The Don" listened for 0.9 hours (54.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: ENEMIES
+   -> total listening time: 0.9 hours (54.00 minutes)
+   -> most streamed song: WORST DAY :( - 0.6 hours (36.22 minutes)
+
+"SSGKobe" listened for 0.9 hours (54.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Calabasas
+   -> total listening time: 0.9 hours (54.00 minutes)
+   -> most streamed song: MIA - 0.5 hours (28.33 minutes)
+
+"JAY-Z" listened for 0.9 hours (54.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Ni**as In Paris
+   -> total listening time: 0.9 hours (54.00 minutes)
+   -> most streamed song: Ni**as In Paris - 0.9 hours (51.95 minutes)
+
+"yvngxchris" listened for 0.9 hours (54.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: excuse me?
+   -> total listening time: 0.9 hours (54.00 minutes)
+   -> most streamed song: excuse me? - 0.8 hours (49.86 minutes)
+
+"J. Cole" listened for 0.9 hours (54.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Work Out
+   -> total listening time: 0.9 hours (54.00 minutes)
+   -> most streamed song: No Role Modelz - 0.9 hours (55.06 minutes)
+
+"JPEGMAFIA" listened for 0.8 hours (48.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: 1539 N. Calvert
+   -> total listening time: 0.8 hours (48.00 minutes)
+   -> most streamed song: 1539 N. Calvert - 0.4 hours (21.69 minutes)
+
+"The Mar�as" listened for 0.8 hours (48.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Cari�o
+   -> total listening time: 0.8 hours (48.00 minutes)
+   -> most streamed song: Cari�o - 0.8 hours (50.48 minutes)
+
+"DIRTYXAN" listened for 0.8 hours (48.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: MAMBO
+   -> total listening time: 0.8 hours (48.00 minutes)
+   -> most streamed song: MAMBO - 0.8 hours (47.07 minutes)
+
+"Trippie Redd" listened for 0.8 hours (48.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Miss The Rage (feat. Playboi Carti)
+   -> total listening time: 0.8 hours (48.00 minutes)
+   -> most streamed song: Matt Hardy 999 (feat. Juice WRLD) - 0.6 hours (33.94 minutes)
+
+"Ski Mask The Slump God" listened for 0.8 hours (48.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Burn The Hoods
+   -> total listening time: 0.8 hours (48.00 minutes)
+   -> most streamed song: Burn The Hoods - 0.7 hours (40.85 minutes)
+
+"Hisohkah" listened for 0.7 hours (42.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Bike Ride
+   -> total listening time: 0.7 hours (42.00 minutes)
+   -> most streamed song: Bike Ride - 0.6 hours (35.92 minutes)
+
+"Kid Cudi" listened for 0.7 hours (42.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Mr. Rager
+   -> total listening time: 0.7 hours (42.00 minutes)
+   -> most streamed song: Mr. Rager - 0.7 hours (41.23 minutes)
+
+"Promyse" listened for 0.7 hours (42.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: Na
+   -> total listening time: 0.7 hours (42.00 minutes)
+   -> most streamed song: Run, Ricky! Run! - 0.4 hours (26.23 minutes)
+
+"charlie to� human" listened for 0.7 hours (42.00 minutes)
+   -> first listened on: 2023-02-15
+   -> first song streamed: True Meaning Life
+   -> total listening time: 0.7 hours (42.00 minutes)
+   -> most streamed song: True Meaning Life - 0.5 hours (29.36 minutes)
 
 
 Top 60 Most Streamed Tracks:
 ------------------------------
-"$uicideboy$ - Hot Razor"
-   -> listened for 12.8 hours (768.00 minutes)
-   -> first listened on 2023-06-11
-
-"Tyler, The Creator - GONE, GONE / THANK YOU"
-   -> listened for 10.8 hours (648.00 minutes)
-   -> first listened on 2023-04-14
-
-"$uicideboy$ & Shakewell - Whole Lotta Grey"
-   -> listened for 10.5 hours (630.00 minutes)
-   -> first listened on 2023-04-13
-
-"$uicideboy$ - Not Even Ghosts Are This Empty"
-   -> listened for 8.9 hours (534.00 minutes)
-   -> first listened on 2023-08-28
-
-"$uicideboy$ & Shakewell - SHAMELESS $UICIDE"
-   -> listened for 7.4 hours (444.00 minutes)
-   -> first listened on 2023-04-13
-
-"$uicideboy$ & Germ - My Swisher Sweet, But My Sig Sauer"
-   -> listened for 7.1 hours (426.00 minutes)
-   -> first listened on 2023-04-15
-
-"$uicideboy$ - Matte Black"
-   -> listened for 7.0 hours (420.00 minutes)
-   -> first listened on 2023-04-14
-
-"$uicideboy$ - whatwhat"
-   -> listened for 7.0 hours (420.00 minutes)
-   -> first listened on 2023-10-13
-
-"$uicideboy$ & Germ - Champagne Face"
-   -> listened for 6.9 hours (414.00 minutes)
-   -> first listened on 2023-04-13
-
-"Project Pat - Out There"
-   -> listened for 6.6 hours (396.00 minutes)
-   -> first listened on 2023-05-18
-
-"Joey Bada$$ - 95 Till Infinity"
-   -> listened for 6.2 hours (372.00 minutes)
-   -> first listened on 2023-04-14
-
-"21 Savage - a lot"
+"Kanye West - Runaway"
    -> listened for 6.1 hours (366.00 minutes)
-   -> first listened on 2023-04-24
+   -> first listened on 2023-02-28
 
-"Westside Gunn & Joey Bada$$ - 327 (feat. Tyler, The Creator & Billie Essco)"
-   -> listened for 6.0 hours (360.00 minutes)
-   -> first listened on 2023-04-14
+"$uicideboy$ - Whole Lotta Grey"
+   -> listened for 5.5 hours (330.00 minutes)
+   -> first listened on 2023-02-25
 
-"$uicideboy$ & Germ - Center Core Never More"
-   -> listened for 5.6 hours (336.00 minutes)
-   -> first listened on 2023-04-13
-
-"$uicideboy$ - Harvest Moon"
-   -> listened for 5.4 hours (324.00 minutes)
-   -> first listened on 2023-07-22
-
-"$uicideboy$ - The Number You Have Dialed Is Not in Service"
-   -> listened for 5.4 hours (324.00 minutes)
-   -> first listened on 2023-04-13
-
-"$uicideboy$ - Avalon"
-   -> listened for 5.1 hours (306.00 minutes)
-   -> first listened on 2023-04-14
-
-"DUCKBOY - EXCALIBUR"
-   -> listened for 5.0 hours (300.00 minutes)
-   -> first listened on 2023-12-15
-
-"XXXTENTACION - vice city"
-   -> listened for 4.9 hours (294.00 minutes)
-   -> first listened on 2023-04-14
-
-"$uicideboy$ - Genesis"
-   -> listened for 4.9 hours (294.00 minutes)
-   -> first listened on 2023-04-14
-
-"$uicideboy$ - Materialism as a Means to an End"
-   -> listened for 4.8 hours (288.00 minutes)
-   -> first listened on 2023-04-13
-
-"Tyler, The Creator & A$AP Rocky - Potato Salad"
-   -> listened for 4.7 hours (282.00 minutes)
-   -> first listened on 2023-04-15
-
-"Powfu - death bed (feat. beabadoobee) [coffee for your head]"
-   -> listened for 4.6 hours (276.00 minutes)
-   -> first listened on 2020-04-17
-
-"Tyler, The Creator - SWEET / I THOUGHT YOU WANTED TO DANCE (feat. Brent Faiyaz & Fana Hues)"
-   -> listened for 4.6 hours (276.00 minutes)
-   -> first listened on 2023-04-25
-
-"$uicideboy$ & Germ - BUCKHEAD"
-   -> listened for 4.6 hours (276.00 minutes)
-   -> first listened on 2023-04-17
-
-"Kendrick Lamar - m.A.A.d city (feat. MC Eiht)"
-   -> listened for 4.6 hours (276.00 minutes)
-   -> first listened on 2023-08-18
-
-"$uicideboy$ - Bossier City Kidnap Victims"
-   -> listened for 4.4 hours (264.00 minutes)
-   -> first listened on 2023-06-20
-
-"$uicideboy$ - 1000 Blunts"
-   -> listened for 4.4 hours (264.00 minutes)
-   -> first listened on 2023-04-14
-
-"$uicideboy$ - THE_EVIL_THAT_MEN_DO"
-   -> listened for 4.4 hours (264.00 minutes)
-   -> first listened on 2023-04-14
-
-"Tyler, The Creator - See You Again (feat. Kali Uchis)"
-   -> listened for 4.3 hours (258.00 minutes)
-   -> first listened on 2023-04-15
-
-"Joey Bada$$ - Righteous Minds"
-   -> listened for 4.2 hours (252.00 minutes)
-   -> first listened on 2023-04-15
-
-"J. Cole - 03� Adolescence"
-   -> listened for 4.2 hours (252.00 minutes)
-   -> first listened on 2023-06-13
-
-"Kendrick Lamar - PRIDE."
-   -> listened for 4.2 hours (252.00 minutes)
-   -> first listened on 2023-04-13
-
-"$uicideboy$ & Germ - I Dream of Chrome"
-   -> listened for 4.1 hours (246.00 minutes)
-   -> first listened on 2023-04-17
-
-"$uicideboy$ & Shakewell - Big Shot Cream Soda"
-   -> listened for 3.8 hours (228.00 minutes)
-   -> first listened on 2023-04-17
-
-"Kendrick Lamar - Father Time (feat. Sampha)"
-   -> listened for 3.8 hours (228.00 minutes)
-   -> first listened on 2023-04-17
-
-"$uicideboy$ - Eulogy"
-   -> listened for 3.7 hours (222.00 minutes)
-   -> first listened on 2023-04-14
-
-"$uicideboy$ - Provolone & Heroin (feat. Freddie Dredd)"
-   -> listened for 3.7 hours (222.00 minutes)
-   -> first listened on 2023-07-04
-
-"$uicideboy$ & Travis Barker - Aliens Are Ghosts"
-   -> listened for 3.7 hours (222.00 minutes)
-   -> first listened on 2023-10-13
-
-"$uicideboy$ - All That Glitters Is Not Gold, But It's Still Damn Beautiful"
-   -> listened for 3.6 hours (216.00 minutes)
-   -> first listened on 2023-10-08
-
-"$uicideboy$ - If Self-Destruction Was an Olympic Event, I�d Be Tonya Harding"
-   -> listened for 3.5 hours (210.00 minutes)
-   -> first listened on 2023-04-17
-
-"MF DOOM - Doomsday (feat. Pebbles The Invisible Girl)"
-   -> listened for 3.5 hours (210.00 minutes)
-   -> first listened on 2023-04-15
-
-"$uicideboy$ - Fucking Your Culture"
-   -> listened for 3.5 hours (210.00 minutes)
-   -> first listened on 2023-04-14
-
-"Tyler, The Creator - ARE WE STILL FRIENDS?"
-   -> listened for 3.4 hours (204.00 minutes)
-   -> first listened on 2023-04-17
-
-"Logic - Self Medication (feat. Seth MacFarlane, Redman & Statik Selektah)"
-   -> listened for 3.4 hours (204.00 minutes)
-   -> first listened on 2023-04-14
-
-"Playboi Carti - Location"
-   -> listened for 3.3 hours (198.00 minutes)
-   -> first listened on 2023-04-14
-
-"$uicideboy$ & Germ - Obey the Walrus"
-   -> listened for 3.3 hours (198.00 minutes)
-   -> first listened on 2023-10-19
-
-"Playboi Carti - Long Time (Intro)"
-   -> listened for 3.3 hours (198.00 minutes)
-   -> first listened on 2023-04-19
+"Kanye West - I Wonder"
+   -> listened for 5.2 hours (312.00 minutes)
+   -> first listened on 2023-02-27
 
 "Joey Bada$$ - Show Me"
+   -> listened for 4.6 hours (276.00 minutes)
+   -> first listened on 2023-02-28
+
+"Kanye West - No More Parties In LA"
+   -> listened for 4.4 hours (264.00 minutes)
+   -> first listened on 2023-02-28
+
+"Kanye West - Devil In A New Dress"
+   -> listened for 4.2 hours (252.00 minutes)
+   -> first listened on 2023-02-28
+
+"$uicideboy$ - The Number You Have Dialed Is Not in Service"
+   -> listened for 4.0 hours (240.00 minutes)
+   -> first listened on 2023-03-24
+
+"Kanye West - Gorgeous"
+   -> listened for 3.9 hours (234.00 minutes)
+   -> first listened on 2023-02-28
+
+"$NOT - Immaculate"
    -> listened for 3.3 hours (198.00 minutes)
-   -> first listened on 2023-04-19
+   -> first listened on 2023-02-25
 
-"$uicideboy$ & Germ - Sorry for the Delay"
+"$NOT - GOSHA"
    -> listened for 3.3 hours (198.00 minutes)
-   -> first listened on 2023-04-13
+   -> first listened on 2023-02-25
 
-"JPEGMAFIA - 1539 N. Calvert"
+"Kanye West - Ghost Town"
    -> listened for 3.2 hours (192.00 minutes)
-   -> first listened on 2023-04-21
+   -> first listened on 2023-02-28
 
-"$uicideboy$ & Germ - The Serpent and the Rainbow"
+"Joey Bada$$ - 95 Till Infinity"
    -> listened for 3.2 hours (192.00 minutes)
-   -> first listened on 2023-04-17
+   -> first listened on 2023-02-27
 
-"$uicideboy$ - Mask & Da Glock (feat. Trippy tha Kid)"
-   -> listened for 3.2 hours (192.00 minutes)
-   -> first listened on 2023-11-09
-
-"$uicideboy$ - I Deleted Facebook a Long Time Ago"
-   -> listened for 3.1 hours (186.00 minutes)
-   -> first listened on 2023-06-21
-
-"XXXTENTACION - infinity (888) [feat. Joey Bada$$]"
-   -> listened for 3.0 hours (180.00 minutes)
-   -> first listened on 2020-04-17
-
-"Kanye West - Runaway (feat. Pusha T)"
-   -> listened for 3.0 hours (180.00 minutes)
-   -> first listened on 2023-04-14
-
-"Shoreline Mafia - Whuss the Deal"
-   -> listened for 3.0 hours (180.00 minutes)
-   -> first listened on 2023-04-17
-
-"$uicideboy$ - 5 Grand at 8 to 1"
-   -> listened for 3.0 hours (180.00 minutes)
-   -> first listened on 2023-04-15
-
-"Bakar - Hell N Back"
+"Kanye West - Touch The Sky"
    -> listened for 2.9 hours (174.00 minutes)
-   -> first listened on 2023-06-03
+   -> first listened on 2023-02-28
 
-"swimcoach - u U U U u U did i mfken stutter?"
+"Kanye West - I Thought About Killing You"
    -> listened for 2.9 hours (174.00 minutes)
-   -> first listened on 2020-04-25
+   -> first listened on 2023-02-28
+
+"Kanye West - Everything I Am"
+   -> listened for 2.9 hours (174.00 minutes)
+   -> first listened on 2023-02-28
+
+"Kanye West - Bound 2"
+   -> listened for 2.8 hours (168.00 minutes)
+   -> first listened on 2023-02-28
+
+"$uicideboy$ - Genesis"
+   -> listened for 2.8 hours (168.00 minutes)
+   -> first listened on 2023-03-23
+
+"Kanye West - Late"
+   -> listened for 2.8 hours (168.00 minutes)
+   -> first listened on 2023-02-28
+
+"$uicideboy$ - Champagne Face"
+   -> listened for 2.7 hours (162.00 minutes)
+   -> first listened on 2023-02-24
+
+"tana - Antisocial 2"
+   -> listened for 2.7 hours (162.00 minutes)
+   -> first listened on 2023-02-27
+
+"$NOT - DRIP"
+   -> listened for 2.6 hours (156.00 minutes)
+   -> first listened on 2023-03-01
+
+"Kanye West - Violent Crimes"
+   -> listened for 2.5 hours (150.00 minutes)
+   -> first listened on 2023-02-28
+
+"The Game - Eazy"
+   -> listened for 2.5 hours (150.00 minutes)
+   -> first listened on 2023-02-28
+
+"$NOT - Doja"
+   -> listened for 2.4 hours (144.00 minutes)
+   -> first listened on 2023-02-25
+
+"$NOT - Who Do I Trust"
+   -> listened for 2.4 hours (144.00 minutes)
+   -> first listened on 2023-03-07
+
+"$uicideboy$ - SHAMELESS $UICIDE"
+   -> listened for 2.4 hours (144.00 minutes)
+   -> first listened on 2023-02-25
+
+"$uicideboy$ - My Swisher Sweet, But My Sig Sauer"
+   -> listened for 2.4 hours (144.00 minutes)
+   -> first listened on 2023-03-01
+
+"Kanye West - Champion"
+   -> listened for 2.3 hours (138.00 minutes)
+   -> first listened on 2023-02-28
+
+"Kanye West - Heard 'Em Say"
+   -> listened for 2.3 hours (138.00 minutes)
+   -> first listened on 2023-02-28
+
+"Chief Keef - Hate Bein' Sober"
+   -> listened for 2.2 hours (132.00 minutes)
+   -> first listened on 2023-02-25
+
+"Kanye West - Barry Bonds"
+   -> listened for 2.2 hours (132.00 minutes)
+   -> first listened on 2023-02-28
+
+"Playboi Carti - Magnolia"
+   -> listened for 2.2 hours (132.00 minutes)
+   -> first listened on 2023-02-25
+
+"Migos - BBO (Bad Bitches Only)"
+   -> listened for 2.2 hours (132.00 minutes)
+   -> first listened on 2023-04-03
+
+"Kanye West - Moon"
+   -> listened for 2.2 hours (132.00 minutes)
+   -> first listened on 2023-02-28
+
+"$uicideboy$ - Center Core Never More"
+   -> listened for 2.2 hours (132.00 minutes)
+   -> first listened on 2023-03-01
+
+"$NOT - Moon & Stars (feat. Maggie Lindemann)"
+   -> listened for 2.2 hours (132.00 minutes)
+   -> first listened on 2023-03-01
+
+"Kanye West - On Sight"
+   -> listened for 2.2 hours (132.00 minutes)
+   -> first listened on 2023-02-28
+
+"$uicideboy$ - Matte Black"
+   -> listened for 2.2 hours (132.00 minutes)
+   -> first listened on 2023-03-23
+
+"Ken Carson - MDMA (feat. Destroy Lonely)"
+   -> listened for 2.1 hours (126.00 minutes)
+   -> first listened on 2023-02-25
+
+"Kanye West - The Glory"
+   -> listened for 2.1 hours (126.00 minutes)
+   -> first listened on 2023-02-28
+
+"Chief Keef - Love Sosa"
+   -> listened for 2.1 hours (126.00 minutes)
+   -> first listened on 2023-02-27
+
+"$NOT - Human (feat. Night Lovell)"
+   -> listened for 2.1 hours (126.00 minutes)
+   -> first listened on 2023-02-27
+
+"halberd - coffee on the beach."
+   -> listened for 2.0 hours (120.00 minutes)
+   -> first listened on 2023-02-25
+
+"$NOT - MS PORTER (feat. Night Lovell)"
+   -> listened for 2.0 hours (120.00 minutes)
+   -> first listened on 2023-03-07
+
+"$NOT - Red"
+   -> listened for 2.0 hours (120.00 minutes)
+   -> first listened on 2023-02-25
+
+"Lil Uzi Vert - 7AM"
+   -> listened for 1.8 hours (108.00 minutes)
+   -> first listened on 2023-02-25
+
+"Chief Keef - Save That Shit"
+   -> listened for 1.8 hours (108.00 minutes)
+   -> first listened on 2023-02-25
+
+"Tyler, The Creator - GONE, GONE / THANK YOU"
+   -> listened for 1.8 hours (108.00 minutes)
+   -> first listened on 2023-02-28
+
+"Cochise - Tell Em"
+   -> listened for 1.8 hours (108.00 minutes)
+   -> first listened on 2023-03-01
+
+"Joey Bada$$ - Love Is Only a Feeling"
+   -> listened for 1.8 hours (108.00 minutes)
+   -> first listened on 2023-02-28
+
+"REV - Devil Lady"
+   -> listened for 1.8 hours (108.00 minutes)
+   -> first listened on 2023-02-25
+
+"$NOT - Whipski (feat. Lil Skies & Internet Money)"
+   -> listened for 1.7 hours (102.00 minutes)
+   -> first listened on 2023-03-01
+
+"Kanye West - All Mine"
+   -> listened for 1.7 hours (102.00 minutes)
+   -> first listened on 2023-02-28
+
+"halberd - i drove her home, and now we're dating."
+   -> listened for 1.7 hours (102.00 minutes)
+   -> first listened on 2023-02-25
+
+"$NOT - PRESSURE"
+   -> listened for 1.7 hours (102.00 minutes)
+   -> first listened on 2023-03-05
+
+"Rich Brian - VIVID"
+   -> listened for 1.7 hours (102.00 minutes)
+   -> first listened on 2023-03-07
+
+"$NOT - SIMPLE"
+   -> listened for 1.7 hours (102.00 minutes)
+   -> first listened on 2023-03-07
+
+"$uicideboy$ - Sorry for the Delay"
+   -> listened for 1.6 hours (96.00 minutes)
+   -> first listened on 2023-03-01
+
+"$NOT - How U Feel (feat. Joey Bada$$)"
+   -> listened for 1.6 hours (96.00 minutes)
+   -> first listened on 2023-03-01
+
+"$uicideboy$ - 1000 Blunts"
+   -> listened for 1.6 hours (96.00 minutes)
+   -> first listened on 2023-03-23
