@@ -25,7 +25,4 @@ my discord is [._ayo](https://discord.com/users/488368000055902228) <--- or just
 support discord server: [invite](https://discord.gg/rP63gxfKQJ)
 
 ## **DISCLAIMER**
-not 100% the same as apple music stat calculator, 
-1. For cmd output top 10 songs doesnt show artist name,
-2. doesnt include features from other artists towards their own hours listened
-3. doesnt seem to read all "Streaming_History_music_*.json" files, only the 1 inputted <- bug will be fixed
+1. SemiAutomaticMode not automatically scanning the dir its chosen to (literally the only thing its meant to do and it cant even) 
