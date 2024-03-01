@@ -1,47 +1,31 @@
-Total streams: 10,000
-Total minutes streamed: 20,126.07
-Total hours streamed: 335.4
-Different tracks: 1,410
-Different artists: 656
+Total streams: 11,716
+Total minutes streamed: 22,933.4
+Total hours streamed: 382.2
+Different tracks: 1,705
+Different artists: 798
 
 Top 10 Most Streamed Artists:
 ------------------------------
-1. "$uicideboy$" - 61.5 hours (3,690.00 minutes)
-2. "Kanye West" - 59.8 hours (3,588.00 minutes)
-3. "$NOT" - 52.0 hours (3,120.00 minutes)
-4. "Tyler, The Creator" - 10.8 hours (648.00 minutes)
-5. "Playboi Carti" - 9.8 hours (588.00 minutes)
-6. "Joey Bada$$" - 9.3 hours (558.00 minutes)
-7. "halberd" - 8.9 hours (534.00 minutes)
-8. "Kudasaibeats" - 6.4 hours (384.00 minutes)
-9. "Baby Keem" - 6.0 hours (360.00 minutes)
-10. "Ken Carson" - 5.8 hours (348.00 minutes)
+1. "$uicideboy$" - 71.1 hours (4,266.00 minutes)     
+2. "Kanye West" - 62.0 hours (3,720.00 minutes)      
+3. "$NOT" - 53.6 hours (3,216.00 minutes)
+4. "Tyler, The Creator" - 13.2 hours (792.00 minutes)
+5. "Joey Bada$$" - 11.1 hours (666.00 minutes)       
+6. "Playboi Carti" - 10.9 hours (654.00 minutes)     
+7. "halberd" - 10.3 hours (618.00 minutes)
+8. "Kudasaibeats" - 7.2 hours (432.00 minutes)       
+9. "Baby Keem" - 6.5 hours (390.00 minutes)
+10. "Ken Carson" - 6.4 hours (384.00 minutes)        
 
 Top 10 Most Streamed Tracks:
 ------------------------------
-1. "Runaway" - 6.0 hours (360.00 minutes)
-2. "I Wonder" - 4.9 hours (294.00 minutes)
-3. "Whole Lotta Grey" - 4.9 hours (294.00 minutes)
-4. "No More Parties In LA" - 4.3 hours (258.00 minutes)
-5. "Devil In A New Dress" - 4.0 hours (240.00 minutes)
-6. "Show Me" - 3.9 hours (234.00 minutes)
-7. "Gorgeous" - 3.8 hours (228.00 minutes)
-8. "The Number You Have Dialed Is Not in Service" - 3.8 hours (228.00 minutes)
-9. "Immaculate" - 3.3 hours (198.00 minutes)
-10. "Ghost Town" - 3.2 hours (192.00 minutes)
-
-Would you like to customize Stats.txt? (Auto generation includes the top 50 songs and artists) (y/n): y
-
-
- /----------------------------------------------------------------------------------------------------------------------------\
-|   EVERYTHING BELOW HERE WIL BE CHANGED FOR YOU (if "n" is typed when asked to customize it will auto generate top 50)        |
- \----------------------------------------------------------------------------------------------------------------------------/
-
-How many artists would you like to include? (Max: 619): 60
-
-How many songs would you like to include? (Max: 1779): 60
-
-Stats.txt successfully written to <file directory> <- this will the be the file dir (dif for all)
-
-It contains the following:
-60 artists and 60 songs
+1. "Kanye West - Runaway" - 6.1 hours (366.00 minutes)
+2. "$uicideboy$ - Whole Lotta Grey" - 5.5 hours (330.00 minutes)
+3. "Kanye West - I Wonder" - 5.2 hours (312.00 minutes)
+4. "Joey Bada$$ - Show Me" - 4.6 hours (276.00 minutes)
+5. "Kanye West - No More Parties In LA" - 4.4 hours (264.00 minutes)
+6. "Kanye West - Devil In A New Dress" - 4.2 hours (252.00 minutes)
+7. "$uicideboy$ - The Number You Have Dialed Is Not in Service" - 4.0 hours (240.00 minutes)
+8. "Kanye West - Gorgeous" - 3.9 hours (234.00 minutes)
+9. "$NOT - Immaculate" - 3.3 hours (198.00 minutes)
+10. "$NOT - GOSHA" - 3.3 hours (198.00 minutes)
