@@ -17,9 +17,9 @@ os.system('cls' if os.name == 'nt' else 'clear')
 # scanning methods
 
 # SemiAutomaticMode: If True, enables semi-automatic selection of the JSON files. 
-# The user will be prompted to select a directory, and the program will automatically scan for 'StreamingHistory_music_*.json' files within the selected directory.
-# This mode requires user interaction to select the directory but automates the file scanning process.
-SemiAutomaticMode = True
+# This mode requires user interaction to select the directory but automates the file scanning process 
+# Press enter when the folder containing your streaming history is found. (due to some weird bug i gotta fix)
+SemiAutomaticMode = False
 
 # ManualMode: If True, enables manual selection of the JSON files. This will disable DebugMode.
 # If False, the program will automatically scan for the JSON files.
