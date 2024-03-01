@@ -6,6 +6,13 @@
 4. then click "Request Data"
 5. You should get a email from spotify for a confirmation, just do whatever it says.
 
+## FullyAutomatic method
+Due to FullyAutomatic mode not working (correctly), youll actually have to put the streaminghistory json files in the same dir as the code (see no.2 on how to run) 
+
+### How does FullyAutomatic work?
+FullyAutomatic scanning works by looking though the following directories Desktop, Downloads, and Documents
+
+If it finds the "my_spotify_data.zip" zip file within one of those directories it will extract it and locates the "StreamingHistory_music_*.json" files and read them
 ## How to use the code
 1. run ```git clone https://github.com/countervolts/Spotify-Stats-Calculator```
 2. make sure that your "my_spotify_data" folder is in same folder as the stat calculator (should be ```C:\Users\<username>\Spotify-Stats-Calculator```)
@@ -16,7 +23,6 @@
 7. allow it to process the streams (this should take a couple seconds)
 8. when done it will print your top 10 artists as well as you top 10 songs, if you type "n" to writing a stats.txt file it will contain 50 artists and 50 songs and save in the same directory, type y to customize how much artists/songs you want in the stats.txt file.
 
-Due to FullyAutomatic mode not working, youll actually have to put the streaminghistory json files in the same dir as the code (see no.2) 
 
 ## Examples
 1. [command prompt output](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/examples/CommandPromptOutput.txt)
