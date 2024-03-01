@@ -1,12 +1,11 @@
 import os
-import pandas as pd
-from tqdm import tqdm
 import time
 import json
 import glob
 import zipfile
-import itertools
 import sys
+import pandas as pd
+from tqdm import tqdm
 
 current_dir = os.path.dirname(os.path.realpath(__file__))
 home_dir = os.path.expanduser("~")
@@ -31,7 +30,7 @@ DebugMode = False
 
 # FullyAutomatic: If True, the program will automatically scan for my_spotify_data.zip in the following directories, Desktop, Downloads, Documents.
 # This mode does all the work for you.
-FullyAutomatic = False
+FullyAutomatic = True
 
 # AutomaticDebugMode: If True, enables debug features for the auto scan method.
 # Requirements: FullyAutomatic = True.
@@ -76,60 +75,60 @@ if SemiAutomaticMode:
         print("No 'StreamingHistory_music_*.json' files found in the selected directory.")
 
 if FullyAutomatic and DebugMode:
-    print("ERROR: DebugMode is set to True, in order to use full auto scan you need to set it to False! You can do this at line: 21, DebugMode = False")
+    print("ERROR: DebugMode is set to True, in order to use full auto scan you need to set it to False! You can do this at line: 29, DebugMode = False")
     exit(1)
 
 if FullyAutomatic:
-    print("Fully Automated mode set True (you can change this via the code lines 17-22)\n\nDisclaimer: The program will scan your Desktop, Downloads, Documents, and the directory where this code is saved.\n\nby typing 'I agree' you agree that this program is allowed to view your local files and other stuff (no info is sent or saved to any servers or anyone.)")
+    print("Fully Automated mode set True (you can change this via the code lines 16-37)\n\nDisclaimer: The program will scan your Desktop, Downloads, Documents, and the directory where this code is saved.\n\nby typing 'I agree' you agree that this program is allowed to view your local files and other stuff (no info is sent or saved to any servers or anyone.)")
     agreement = input("Type 'I agree' to continue: ")
     
     if agreement != 'I agree':
         print("why? :(")
         exit(1)
     
-    scan_dirs = [os.path.join(home_dir, dir_name) for dir_name in ['Desktop', 'Downloads', 'Documents']]
-    scan_dirs.append(current_dir)
-    total_files = {dir_name: sum([len(files) for r, d, files in os.walk(dir_name)]) for dir_name in scan_dirs}
-    
-    print("Scanning next:", ', '.join(f"{os.path.basename(dir_name)} (Files: {total_files[dir_name]}/{total_files[dir_name]})" for dir_name in scan_dirs))
-    
-    print("\nFile Count")
-    for dir_name in scan_dirs:
-        print(f"{os.path.basename(dir_name)}: {total_files[dir_name]}/{total_files[dir_name]}")
-    
-    break_loop = False
-    for dir_name in scan_dirs:
-        if break_loop:
-            break
-        found = False
-        file_count = 0
-        bar = create_progress_bar(total_files[dir_name])
-        
-        for root, dirs, files in os.walk(dir_name):
-            if break_loop:
+scan_dirs = [os.path.join(home_dir, dir_name) for dir_name in ['Desktop', 'Downloads', 'Documents']]
+scan_dirs.append(current_dir)
+total_files = {dir_name: sum(len(files) for r, d, files in os.walk(dir_name)) for dir_name in scan_dirs}
+
+print("Scanning next:", ', '.join(f"{os.path.basename(dir_name)} (Files: {total_files[dir_name]}/{total_files[dir_name]})" for dir_name in scan_dirs))
+
+print("\nFile Count")
+for dir_name in scan_dirs:
+    print(f"{os.path.basename(dir_name)}: {total_files[dir_name]}/{total_files[dir_name]}")
+
+should_break = False
+for dir_name in scan_dirs:
+    if should_break:
+        break
+is_found = False
+file_count = 0
+progress_bar = create_progress_bar(total_files[dir_name])
+
+for root, dirs, files in os.walk(dir_name):
+    if should_break:
+        break
+    for file in files:
+        if file == "my_spotify_data.zip":
+            with zipfile.ZipFile(os.path.join(root, file), 'r') as zip_ref:
+                print(f"\rExtracting {file} in {root}")
+                zip_ref.extractall(root)
+                is_found = True
+                print(f"\nmy_spotify_data.zip was found and extracted successfully to {root}. \nPress enter to continue")
+                input()
+                should_break = True
                 break
-            for file in files:
-                if file == "my_spotify_data.zip":
-                    with zipfile.ZipFile(os.path.join(root, file), 'r') as zip_ref:
-                        print(f"\rExtracting {file} in {root}")
-                        zip_ref.extractall(root)
-                        found = True
-                        print(f"\nmy_spotify_data.zip was found and extracted successfully to {root}. \nPress enter to continue")
-                        input()
-                        break_loop = True
-                        break
-                file_count += 1
-                bar.update()
-                AutomaticDebugModePrint(file)
-        
-        if bar is not None:
-            bar.close()
-            if found:
-                print(f"{os.path.basename(dir_name)}: ✓")
-            else:
-                print(f"{os.path.basename(dir_name)}: ✗")
-            print(f"\rCurrently scanning: {os.path.basename(dir_name)} {total_files[dir_name]}/{total_files[dir_name]} Files scanned", end="")
-    
+        file_count += 1
+        progress_bar.update()
+    AutomaticDebugModePrint(file)
+
+if progress_bar is not None:
+    progress_bar.close()
+    if is_found:
+        print(f"{os.path.basename(dir_name)}: ✓")
+    else:
+        print(f"{os.path.basename(dir_name)}: ✗")
+    print(f"\rCurrently scanning: {os.path.basename(dir_name)} {total_files[dir_name]}/{total_files[dir_name]} Files scanned", end="")
+
     json_files = []
     
     for dir_name in scan_dirs:
@@ -210,7 +209,7 @@ if not data:  # Check if data is empty
     if DebugMode:
         print(f"No data found in the selected files: {selected_files}")
     print("No data found in the selected JSON files.")
-    exit(1)  # Stop the program
+    sys.exit(1)  # Stop the program
 
 # Concatenate all the dataframes
 df = pd.concat(data, ignore_index=True)
@@ -255,7 +254,7 @@ for i, (artist, time) in enumerate(top_50_artists.items(), start=1):
     minutes = time * 60
     print(f'{i}. "{artist}" - {time} hours ({minutes:,.2f} minutes)')
 
-# Print the top 10 most streamed tracks
+
 print("\nTop 10 Most Streamed Tracks:")
 print("-" * 30)
 for i, ((artist, track), time) in enumerate(top_50_tracks.items(), start=1):
@@ -264,7 +263,6 @@ for i, ((artist, track), time) in enumerate(top_50_tracks.items(), start=1):
     minutes = time * 60
     print(f'{i}. "{artist} - {track}" - {time} hours ({minutes:,.2f} minutes)')
     
-# Ask the user if they want to customize the output
 customize = input('\nWould you like to customize Stats.txt? (Auto generation includes the top 50 songs and artists) (y/n): ')
 if customize.lower() == 'y':
     max_artists = len(df['artistName'].unique())
@@ -274,22 +272,20 @@ if customize.lower() == 'y':
         if 0 < num_artists <= max_artists:
             top_artists = grouped_artist.sort_values(ascending=False).head(num_artists)
             break
-        else:
-            print("Invalid input. Please enter a number between 1 and " + str(max_artists))
+        print("Invalid input. Please enter a number between 1 and " + str(max_artists))
     while True:
         num_songs = int(input(f'\nHow many songs would you like to include? (Max: {max_songs}): '))
         if 0 < num_songs <= max_songs:
             top_tracks = grouped_track.sort_values(ascending=False).head(num_songs)
             break
-        else:
-            print("Invalid input. Please enter a number between 1 and " + str(max_songs))
+        print("Invalid input. Please enter a number between 1 and " + str(max_songs))
 else:
     num_artists = 50
     num_songs = 50
     top_artists = top_50_artists
     top_tracks = top_50_tracks
 
-with open('Stats.txt', 'w') as f:
+with open('Stats.txt', 'w', encoding='utf-8') as f:
     f.write(f"Total streams: {streams:,}\n")
     f.write(f"Total minutes streamed: {round(minutes_streamed, 2):,}\n")
     f.write(f"Total hours streamed: {hours_streamed:,}\n")
@@ -326,6 +322,6 @@ with open('Stats.txt', 'w') as f:
         f.write(f'   -> listened for {time} hours ({minutes:,.2f} minutes)\n')
         f.write(f'   -> first listened on {first_listened}\n\n')
 
-print(f"\nStats.txt successfully written to {os.getcwd()}/Stats.txt")
-print(f"\nIt contains the following: ")
+print("\nStats.txt successfully written to {}/Stats.txt".format(os.getcwd()))
+print("\nIt contains the following: ")
 print(f"{num_artists} artists and {num_songs} songs")
