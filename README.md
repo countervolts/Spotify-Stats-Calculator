@@ -16,6 +16,8 @@
 7. allow it to process the streams (this should take a couple seconds)
 8. when done it will print your top 10 artists as well as you top 10 songs, if you type "n" to writing a stats.txt file it will contain 50 artists and 50 songs and save in the same directory, type y to customize how much artists/songs you want in the stats.txt file.
 
+Due to FullyAutomatic mode not working, youll actually have to put the streaminghistory json files in the same dir as the code (see no.2) 
+
 ## Examples
 1. [command prompt output](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/examples/CommandPromptOutput.txt)
 2. [full stats.txt output](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/examples/Stats.txt)
