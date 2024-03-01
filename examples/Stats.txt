@@ -1,3 +1,5 @@
+-> NOTE: this will not always show 60 artists/songs based off the customization from the user (default/auto generated = 50 of both artists and songs)
+
 Total streams: 11,716
 Total minutes streamed: 22,933.4
 Total hours streamed: 382.2
