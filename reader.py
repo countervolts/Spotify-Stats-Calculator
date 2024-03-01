@@ -18,11 +18,11 @@ os.system('cls' if os.name == 'nt' else 'clear')
 # SemiAutomaticMode: If True, enables semi-automatic selection of the JSON files. 
 # This mode requires user interaction to select the directory but automates the file scanning process 
 # Press enter when the folder containing your streaming history is found. (due to some weird bug i gotta fix)
-SemiAutomaticMode = False
+SemiAutomaticMode = False # change to True if you would like, makes the process of locating the files a slightly bit easier
 
 # ManualMode: If True, enables manual selection of the JSON files. This will disable DebugMode.
 # If False, the program will automatically scan for the JSON files.
-ManualMode = False
+ManualMode = True
 
 # DebugMode: If True, enables debug mode, which prints out the files found and the directory it is looking in.
 # Requirements: ManualMode to be False.
@@ -30,7 +30,7 @@ DebugMode = False
 
 # FullyAutomatic: If True, the program will automatically scan for my_spotify_data.zip in the following directories, Desktop, Downloads, Documents.
 # This mode does all the work for you.
-FullyAutomatic = True
+FullyAutomatic = False # currently still being tested due to it not correctly reading the directories, resort to using manual mode/semiautomaticmode
 
 # AutomaticDebugMode: If True, enables debug features for the auto scan method.
 # Requirements: FullyAutomatic = True.
