@@ -22,7 +22,7 @@ SemiAutomaticMode = False # change to True if you would like, makes the process 
 
 # ManualMode: If True, enables manual selection of the JSON files. This will disable DebugMode.
 # If False, the program will automatically scan for the JSON files.
-ManualMode = True
+ManualMode = False
 
 # DebugMode: If True, enables debug mode, which prints out the files found and the directory it is looking in.
 # Requirements: ManualMode to be False.
@@ -30,7 +30,7 @@ DebugMode = False
 
 # FullyAutomatic: If True, the program will automatically scan for my_spotify_data.zip in the following directories, Desktop, Downloads, Documents.
 # This mode does all the work for you.
-FullyAutomatic = False # currently still being tested due to it not correctly reading the directories, resort to using manual mode/semiautomaticmode
+FullyAutomatic = True # currently still being tested due to it not correctly reading the directories, resort to using manual mode/semiautomaticmode
 
 # AutomaticDebugMode: If True, enables debug features for the auto scan method.
 # Requirements: FullyAutomatic = True.
@@ -86,55 +86,54 @@ if FullyAutomatic:
         print("why? :(")
         exit(1)
     
-scan_dirs = [os.path.join(home_dir, dir_name) for dir_name in ['Desktop', 'Downloads', 'Documents']]
-scan_dirs.append(current_dir)
-total_files = {dir_name: sum(len(files) for r, d, files in os.walk(dir_name)) for dir_name in scan_dirs}
+    scan_dirs = [os.path.join(home_dir, dir_name) for dir_name in ['Downloads']]
+    total_files = {dir_name: sum(len(files) for r, d, files in os.walk(dir_name)) for dir_name in scan_dirs}
 
-print("Scanning next:", ', '.join(f"{os.path.basename(dir_name)} (Files: {total_files[dir_name]}/{total_files[dir_name]})" for dir_name in scan_dirs))
+    print("Scanning next:", ', '.join(f"{os.path.basename(dir_name)} (Files: {total_files[dir_name]}/{total_files[dir_name]})" for dir_name in scan_dirs))
 
-print("\nFile Count")
-for dir_name in scan_dirs:
-    print(f"{os.path.basename(dir_name)}: {total_files[dir_name]}/{total_files[dir_name]}")
-
-should_break = False
-for dir_name in scan_dirs:
-    if should_break:
-        break
-is_found = False
-file_count = 0
-progress_bar = create_progress_bar(total_files[dir_name])
-
-for root, dirs, files in os.walk(dir_name):
-    if should_break:
-        break
-    for file in files:
-        if file == "my_spotify_data.zip":
-            with zipfile.ZipFile(os.path.join(root, file), 'r') as zip_ref:
-                print(f"\rExtracting {file} in {root}")
-                zip_ref.extractall(root)
-                is_found = True
-                print(f"\nmy_spotify_data.zip was found and extracted successfully to {root}. \nPress enter to continue")
-                input()
-                should_break = True
-                break
-        file_count += 1
-        progress_bar.update()
-    AutomaticDebugModePrint(file)
-
-if progress_bar is not None:
-    progress_bar.close()
-    if is_found:
-        print(f"{os.path.basename(dir_name)}: ✓")
-    else:
-        print(f"{os.path.basename(dir_name)}: ✗")
-    print(f"\rCurrently scanning: {os.path.basename(dir_name)} {total_files[dir_name]}/{total_files[dir_name]} Files scanned", end="")
-
-    json_files = []
-    
+    print("\nFile Count")
     for dir_name in scan_dirs:
-        json_files.extend(glob.glob(os.path.join(dir_name, '**', 'StreamingHistory_music_*.json'), recursive=True))
-    
-    json_files = [os.path.relpath(file, current_dir) for file in json_files]  # Get the relative paths, not the full paths
+        print(f"{os.path.basename(dir_name)}: {total_files[dir_name]}/{total_files[dir_name]}")
+
+    should_break = False
+    for dir_name in scan_dirs:
+        if should_break:
+            break
+    is_found = False
+    file_count = 0
+    progress_bar = create_progress_bar(total_files[dir_name])
+
+    for root, dirs, files in os.walk(dir_name):
+        if should_break:
+            break
+        for file in files:
+            if file == "my_spotify_data.zip":
+                with zipfile.ZipFile(os.path.join(root, file), 'r') as zip_ref:
+                    print(f"\rExtracting {file} in {root}")
+                    zip_ref.extractall(root)
+                    is_found = True
+                    print(f"\nmy_spotify_data.zip was found and extracted successfully to {root}. \nPress enter to continue")
+                    input()
+                    should_break = True
+                    break
+            file_count += 1
+            progress_bar.update()
+        AutomaticDebugModePrint(file)
+
+    if progress_bar is not None:
+        progress_bar.close()
+        if is_found:
+            print(f"{os.path.basename(dir_name)}: ✓")
+        else:
+            print(f"{os.path.basename(dir_name)}: ✗")
+        print(f"\rCurrently scanning: {os.path.basename(dir_name)} {total_files[dir_name]}/{total_files[dir_name]} Files scanned", end="")
+
+        json_files = []
+        for dir_name in scan_dirs:
+            json_files.extend(glob.glob(os.path.join(dir_name, '**', 'StreamingHistory_music_*.json'), recursive=True))
+        json_files = [os.path.relpath(file, current_dir) for file in json_files]  # Get the relative paths, not the full paths
+
+    selected_files = json_files
 
 if ManualMode:
     contents = os.listdir(current_dir)
@@ -195,8 +194,12 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 data = []
 missing_msPlayed_files = []  # List to keep track of files missing 'msPlayed'
+
+downloads_dir = os.path.join(os.path.expanduser('~'), 'Downloads')
+
 for file in selected_files:
-    file_dir = os.path.join(current_dir, file)
+    file_name = os.path.basename(file)  # Get the base name of the file
+    file_dir = os.path.join(downloads_dir, 'Spotify Account Data', file_name)  # Join downloads_dir with 'Spotify Account Data' and the base name of the file
     if DebugMode:
         print(f"Reading file: {file_dir}")
     with open(file_dir, 'r', encoding='utf-8') as f:
