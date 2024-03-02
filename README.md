@@ -7,12 +7,16 @@
 5. You should get a email from spotify for a confirmation, just do whatever it says.
 
 ## FullyAutomatic method
-Due to FullyAutomatic mode not working (correctly), youll actually have to put the streaminghistory json files in the same dir as the code (see no.2 on how to run) 
+FullyAutomatic currently works :) (!IMPORTANT!: due to something wrong (with my code) it only will look in the downloads for the my_spotify_data.zip)
 
 ### How does FullyAutomatic work?
-FullyAutomatic scanning works by looking though the following directories Desktop, Downloads, and Documents
+FullyAutomatic scanning works by looking in 
+- Downloads for the my_spotify_data.zip file 
+- if found it will extract it to the Downloads
+- then it will look within the folder for StreamingHistory_music_*.json files
+- and finally read them and display your stats :) 
 
-If it finds the "my_spotify_data.zip" zip file within one of those directories it will extract it and locates the "StreamingHistory_music_*.json" files and read them
+
 ## How to use the code
 1. run ```git clone https://github.com/countervolts/Spotify-Stats-Calculator```
 2. make sure that your "my_spotify_data" folder is in same folder as the stat calculator (should be ```C:\Users\<username>\Spotify-Stats-Calculator```)
