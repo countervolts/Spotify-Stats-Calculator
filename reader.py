@@ -79,7 +79,7 @@ if FullyAutomatic and DebugMode:
     exit(1)
 
 if FullyAutomatic:
-    print("Fully Automated mode set True (you can change this via the code lines 16-37)\n\nDisclaimer: The program will scan your Desktop, Downloads, Documents, and the directory where this code is saved.\n\nby typing 'I agree' you agree that this program is allowed to view your local files and other stuff (no info is sent or saved to any servers or anyone.)")
+    print("Fully Automated mode set True (you can change this via the code lines 16-37)\n\nDisclaimer: The program will scan your Downloads folder.\n\nby typing 'I agree' you agree that this program is allowed to view your local files and other stuff (no info is sent or saved to any servers or anyone.)")
     agreement = input("Type 'I agree' to continue: ")
     
     if agreement != 'I agree':
