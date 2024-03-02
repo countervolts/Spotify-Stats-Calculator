@@ -40,4 +40,4 @@ support discord server: [invite](https://discord.gg/rP63gxfKQJ)
 1. SemiAutomaticMode not automatically scanning the dir its chosen to (literally the only thing its meant to do and it cant even) 
 
 ## pylint
-pylint rated my code a 7.27/10
+pylint rated my updated code at 7.17/10 (previous run: 7.27/10, -0.10) im sad :(
