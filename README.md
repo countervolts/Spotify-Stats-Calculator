@@ -24,16 +24,7 @@ very easy, and it should automatically detect the "my_spotify_data.zip" within y
 6. when ran it should print "Pick a JSON: " if it says that and the "Streaming_History_music_*.json" json is in the folder press 1
 7. allow it to process the streams (this should take a couple seconds)
 8. when done it will print your top 10 artists as well as you top 10 songs, if you type "n" to writing a stats.txt file it will contain 50 artists and 50 songs and save in the same directory, type y to customize how much artists/songs you want in the stats.txt file.
-
-## FullyAutomatic method
-FullyAutomatic currently works :) (!IMPORTANT!: due to something wrong (with my code) it only will look in the downloads for the my_spotify_data.zip)
-
-### How does FullyAutomatic work?
-FullyAutomatic scanning works by looking in 
-- Downloads for the my_spotify_data.zip file 
-- if found it will extract it to the Downloads
-- then it will look within the folder for StreamingHistory_music_*.json files
-- and finally read them and display your stats :) 
+ 
 
 ## Examples
 1. [command prompt output](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/examples/CommandPromptOutput.txt)
