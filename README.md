@@ -6,18 +6,16 @@
 4. then click "Request Data"
 5. You should get a email from spotify for a confirmation, just do whatever it says.
 
-## FullyAutomatic method
-FullyAutomatic currently works :) (!IMPORTANT!: due to something wrong (with my code) it only will look in the downloads for the my_spotify_data.zip)
+## How to use this
+ever since i added the executable within the releases tab its never been easier!
+1. go to [releases](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/exe)
+2. click on reader.exe
+3. wait for it to download
+4. run file!
 
-### How does FullyAutomatic work?
-FullyAutomatic scanning works by looking in 
-- Downloads for the my_spotify_data.zip file 
-- if found it will extract it to the Downloads
-- then it will look within the folder for StreamingHistory_music_*.json files
-- and finally read them and display your stats :) 
+very easy, and it should automatically detect the "my_spotify_data.zip" within your downloads folder!
 
-
-## How to use the code
+## How to use the code (non executable version)
 1. run ```git clone https://github.com/countervolts/Spotify-Stats-Calculator```
 2. make sure that your "my_spotify_data" folder is in same folder as the stat calculator (should be ```C:\Users\<username>\Spotify-Stats-Calculator```)
 3. run ```cd Spotify-Music-Stats-Calculator```
@@ -27,6 +25,15 @@ FullyAutomatic scanning works by looking in
 7. allow it to process the streams (this should take a couple seconds)
 8. when done it will print your top 10 artists as well as you top 10 songs, if you type "n" to writing a stats.txt file it will contain 50 artists and 50 songs and save in the same directory, type y to customize how much artists/songs you want in the stats.txt file.
 
+## FullyAutomatic method
+FullyAutomatic currently works :) (!IMPORTANT!: due to something wrong (with my code) it only will look in the downloads for the my_spotify_data.zip)
+
+### How does FullyAutomatic work?
+FullyAutomatic scanning works by looking in 
+- Downloads for the my_spotify_data.zip file 
+- if found it will extract it to the Downloads
+- then it will look within the folder for StreamingHistory_music_*.json files
+- and finally read them and display your stats :) 
 
 ## Examples
 1. [command prompt output](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/examples/CommandPromptOutput.txt)
