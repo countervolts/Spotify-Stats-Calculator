@@ -79,7 +79,7 @@ if FullyAutomatic and DebugMode:
     exit(1)
 
 if FullyAutomatic:
-    print("Fully Automated mode set True (you can change this via the code lines 16-37)\n\nDisclaimer: The program will scan your Downloads folder.\n\nby typing 'I agree' you agree that this program is allowed to view your local files and other stuff (no info is sent or saved to any servers or anyone.)")
+    print("Disclaimer: The program will scan your Downloads folder.\ntyping I agree will allow the program to scan your downloads.")
     agreement = input("Type 'I agree' to continue: ")
     
     if agreement != 'I agree':
@@ -89,16 +89,21 @@ if FullyAutomatic:
     scan_dirs = [os.path.join(home_dir, dir_name) for dir_name in ['Downloads']]
     total_files = {dir_name: sum(len(files) for r, d, files in os.walk(dir_name)) for dir_name in scan_dirs}
 
-    print("Scanning next:", ', '.join(f"{os.path.basename(dir_name)} (Files: {total_files[dir_name]}/{total_files[dir_name]})" for dir_name in scan_dirs))
-
-    print("\nFile Count")
+    print("\n================== Scanning Directories ==================\n")
     for dir_name in scan_dirs:
-        print(f"{os.path.basename(dir_name)}: {total_files[dir_name]}/{total_files[dir_name]}")
+        print(f"Next: {os.path.basename(dir_name)} (Files: {total_files[dir_name]}/{total_files[dir_name]})")
+
+    print("\n================== File Count ==================\n")
+    for dir_name in scan_dirs:
+        print(f"Directory: {os.path.basename(dir_name)}")
+        print(f"Total Files: {total_files[dir_name]}")
+        print("----------------------------------------------")
 
     should_break = False
     for dir_name in scan_dirs:
         if should_break:
             break
+
     is_found = False
     file_count = 0
     progress_bar = create_progress_bar(total_files[dir_name])
@@ -109,10 +114,11 @@ if FullyAutomatic:
         for file in files:
             if file == "my_spotify_data.zip":
                 with zipfile.ZipFile(os.path.join(root, file), 'r') as zip_ref:
-                    print(f"\rExtracting {file} in {root}")
+                    print(f"\nExtracting {file} in {root}...\n")
                     zip_ref.extractall(root)
                     is_found = True
-                    print(f"\nmy_spotify_data.zip was found and extracted successfully to {root}. \nPress enter to continue")
+                    print(f"\nSuccess! 'my_spotify_data.zip' was found and extracted to {root}.")
+                    print("\nPress enter to see your stats...")
                     input()
                     should_break = True
                     break
@@ -123,16 +129,15 @@ if FullyAutomatic:
     if progress_bar is not None:
         progress_bar.close()
         if is_found:
-            print(f"{os.path.basename(dir_name)}: ✓")
+            print(f"\n{os.path.basename(dir_name)}: ✓")
         else:
-            print(f"{os.path.basename(dir_name)}: ✗")
-        print(f"\rCurrently scanning: {os.path.basename(dir_name)} {total_files[dir_name]}/{total_files[dir_name]} Files scanned", end="")
+            print(f"\n{os.path.basename(dir_name)}: ✗")
+        print(f"\nCurrently scanning: {os.path.basename(dir_name)} {total_files[dir_name]}/{total_files[dir_name]} Files scanned")
 
-        json_files = []
-        for dir_name in scan_dirs:
-            json_files.extend(glob.glob(os.path.join(dir_name, '**', 'StreamingHistory_music_*.json'), recursive=True))
-        json_files = [os.path.relpath(file, current_dir) for file in json_files]  # Get the relative paths, not the full paths
-
+    json_files = []
+    for dir_name in scan_dirs:
+        json_files.extend(glob.glob(os.path.join(dir_name, '**', 'StreamingHistory_music_*.json'), recursive=True))
+    json_files = [os.path.relpath(file, current_dir) for file in json_files]  # Get the relative paths, not the full paths
     selected_files = json_files
 
 if ManualMode:
