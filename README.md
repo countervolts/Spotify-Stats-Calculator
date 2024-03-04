@@ -8,7 +8,7 @@
 
 ## How to use this
 ever since i added the executable within the releases tab its never been easier!
-1. go to [releases](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/exe)
+1. go to [releases](https://github.com/countervolts/Spotify-Stats-Calculator/releases)
 2. click on reader.exe
 3. wait for it to download
 4. run file!
