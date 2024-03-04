@@ -9,9 +9,8 @@
 ## How to use this
 ever since i added the executable within the releases tab its never been easier!
 1. go to [releases](https://github.com/countervolts/Spotify-Stats-Calculator/releases)
-2. click on reader.exe
-3. wait for it to download
-4. run file!
+2. download most recent version
+3. run file!
 
 very easy, and it should automatically detect the "my_spotify_data.zip" within your downloads folder!
 
