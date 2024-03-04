@@ -36,6 +36,6 @@ support discord server: [invite](https://discord.gg/rP63gxfKQJ)
 
 ## **DISCLAIMER**
 1. SemiAutomaticMode not automatically scanning the dir its chosen to (literally the only thing its meant to do and it cant even) 
-
+2. im aware of when you try to get ALL your stats (literally max both artists and songs) majority will display as 0.0 hours (0.0 minutes)
 ## pylint
 pylint rated my updated code at 7.17/10 (previous run: 7.27/10, -0.10) im sad :(
