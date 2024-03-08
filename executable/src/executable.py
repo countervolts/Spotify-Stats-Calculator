@@ -64,47 +64,55 @@ if progress_bar is not None:
     print(f"\rCurrently scanning: {os.path.basename(dir_name)} {total_files[dir_name]}/{total_files[dir_name]} Files scanned", end="")
     json_files = []
     for dir_name in scan_dirs:
-        json_files.extend(glob.glob(os.path.join(dir_name, '**', 'StreamingHistory_music_*.json'), recursive=True))
-    json_files = [os.path.relpath(file, current_dir) for file in json_files]  # Get the relative paths, not the full paths
-selected_files = json_files
+        json_files.extend(glob.glob(os.path.join(dir_name, '**', 'Streaming_History_Audio_*.json'), recursive=True))
+        json_files = [os.path.relpath(file, current_dir) for file in json_files]  # Get the relative paths, not the full paths
+        selected_files = json_files
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
 data = []
-missing_msPlayed_files = []  # List to keep track of files missing 'msPlayed'
+missing_ms_played_files = []  # List to keep track of files missing 'ms_played'
 
 downloads_dir = os.path.join(os.path.expanduser('~'), 'Downloads')
 
 for file in selected_files:
     file_name = os.path.basename(file)  # Get the base name of the file
-    file_dir = os.path.join(downloads_dir, 'Spotify Account Data', file_name)  # Join downloads_dir with 'Spotify Account Data' and the base name of the file
+    file_dir = os.path.join(downloads_dir, 'Spotify Extended Streaming History', file_name)  # Join downloads_dir with 'Spotify Extended Streaming History' and the base name of the file
+
+    # Read the JSON file into a dataframe and append it to the data list
+    df = pd.read_json(file_dir)
+    data.append(df)
+
+    # Print the file name
+    print(f"Read data from file: {file_name}")
+
+os.system('cls' if os.name == 'nt' else 'clear')
 
 # Concatenate all the dataframes
 df = pd.concat(data, ignore_index=True)
 
-# Check if 'msPlayed' is in df columns before performing the operation
-if 'msPlayed' in df.columns:
-    # Convert msPlayed to minutes
-    df['msPlayed'] = df['msPlayed'] / 60000
+if 'ms_played' in df.columns:
+    # Convert ms_played to minutes
+    df['ms_played'] = df['ms_played'] / 60000
 else:
-    print(f"msPlayed column not found in the following JSON files: {', '.join(missing_msPlayed_files)}")
+    print(f"ms_played column not found in the following JSON files: {', '.join(missing_ms_played_files)}")
 
-# Group by artistName and sum the msPlayed for each artist
-grouped_artist = df.groupby('artistName')['msPlayed'].sum()
+# Group by master_metadata_album_artist_name and sum the ms_played for each artist
+grouped_artist = df.groupby('master_metadata_album_artist_name')['ms_played'].sum()
 grouped_artist = grouped_artist.apply(lambda x: round(x/60, 1))  # Convert minutes to hours
 top_50_artists = grouped_artist.sort_values(ascending=False).head(50)  # Get the top 50 artists
 
-# Group by artistName and trackName and sum the msPlayed for each group
-grouped_track = df.groupby(['artistName', 'trackName'])['msPlayed'].sum()
+# Group by master_metadata_album_artist_name and master_metadata_track_name and sum the ms_played for each group
+grouped_track = df.groupby(['master_metadata_album_artist_name', 'master_metadata_track_name'])['ms_played'].sum()
 grouped_track = grouped_track.apply(lambda x: round(x/60, 1))  # Convert minutes to hours
 top_50_tracks = grouped_track.sort_values(ascending=False).head(50)  # Get the top 50 tracks
 
 # Calculate some statistics
 streams = len(df)
-minutes_streamed = df['msPlayed'].sum()
+minutes_streamed = df['ms_played'].sum()
 hours_streamed = round(minutes_streamed / 60, 1)
-different_tracks = df['trackName'].nunique()
-different_artists = df['artistName'].nunique()
+different_tracks = df['master_metadata_track_name'].nunique()
+different_artists = df['master_metadata_album_artist_name'].nunique()
 
 # Print the statistics
 print(f"\nTotal streams: {streams:,}")
@@ -122,7 +130,6 @@ for i, (artist, time) in enumerate(top_50_artists.items(), start=1):
     minutes = time * 60
     print(f'{i}. "{artist}" - {time} hours ({minutes:,.2f} minutes)')
 
-
 print("\nTop 10 Most Streamed Tracks:")
 print("-" * 30)
 for i, ((artist, track), time) in enumerate(top_50_tracks.items(), start=1):
@@ -133,8 +140,8 @@ for i, ((artist, track), time) in enumerate(top_50_tracks.items(), start=1):
     
 customize = input('\nWould you like to customize Stats.txt? (Auto generation includes the top 50 songs and artists) (y/n): ')
 if customize.lower() == 'y':
-    max_artists = len(df['artistName'].unique())
-    max_songs = len(df['trackName'].unique())
+    max_artists = len(df['master_metadata_album_artist_name'].unique())
+    max_songs = len(df['master_metadata_track_name'].unique())
     while True:
         num_artists = int(input(f'\nHow many artists would you like to include? (Max: {max_artists}): '))
         if 0 < num_artists <= max_artists:
@@ -162,15 +169,15 @@ with open('Stats.txt', 'w', encoding='utf-8') as f:
     f.write(f"Top {num_artists} Most Streamed Artists:\n")
     f.write("-" * 30 + "\n")
     for artist, time in list(top_artists.items())[:num_artists]:
-        artist_df = df[df['artistName'] == artist]
+        artist_df = df[df['master_metadata_album_artist_name'] == artist]
         if artist_df.empty:
             continue
         minutes = time * 60
-        df['endTime'] = pd.to_datetime(df['endTime'])
-        first_listened = df['endTime'].min().date()
-        first_song = artist_df['trackName'].iloc[0]
-        most_streamed_song = artist_df.groupby('trackName')['msPlayed'].sum().idxmax()
-        most_streamed_song_time = artist_df.groupby('trackName')['msPlayed'].sum().max()
+        df['ts'] = pd.to_datetime(df['ts'])
+        first_listened = df['ts'].min().date()
+        first_song = artist_df['master_metadata_track_name'].iloc[0]
+        most_streamed_song = artist_df.groupby('master_metadata_track_name')['ms_played'].sum().idxmax()
+        most_streamed_song_time = artist_df.groupby('master_metadata_track_name')['ms_played'].sum().max()
         most_streamed_song_time_hours = round(most_streamed_song_time / 60, 1)
         f.write(f'"{artist}" listened for {time} hours ({minutes:,.2f} minutes)\n')
         f.write(f'   -> first listened on: {first_listened}\n')
@@ -181,11 +188,11 @@ with open('Stats.txt', 'w', encoding='utf-8') as f:
     f.write("-" * 30 + "\n")
     for (artist, track), time in list(top_tracks.items())[:num_songs]:
         minutes = time * 60
-        track_df = df.loc[df['trackName'] == track].copy()  # use .copy() to avoid SettingWithCopyWarning from pandas
+        track_df = df.loc[df['master_metadata_track_name'] == track].copy()  # use .copy() to avoid SettingWithCopyWarning from pandas
         if track_df.empty:
             continue
-        track_df.loc[:, 'endTime'] = pd.to_datetime(track_df['endTime'])  # use .loc to modify the DataFrame in place
-        first_listened = track_df['endTime'].min().date()
+        track_df.loc[:, 'ts'] = pd.to_datetime(track_df['ts'])  # use .loc to modify the DataFrame in place
+        first_listened = track_df['ts'].min().date()
         f.write(f'"{artist} - {track}"\n')
         f.write(f'   -> listened for {time} hours ({minutes:,.2f} minutes)\n')
         f.write(f'   -> first listened on {first_listened}\n\n')
