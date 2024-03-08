@@ -1,7 +1,35 @@
-## how to use
-run either the code 
-1. [here](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py)
+how to get history [here](https://github.com/countervolts/Spotify-Stats-Calculator/edit/main/README.md#how-to-get-your-extended-streaming-history)
+## how to run the code
+so when you request you data spotify will send 2 emails (not including the one they send when you first request)
 
-or the executable
+The first one should come in a couple days, this will NOT include your extened streaming history. BUT you can still calculate your history
 
-2. [here](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/extended-steaming-history)
+## i got my files now what?
+literally just download the file and you should be good, the code is programmed to scan your downloads for the folder that spotify sent you (the zipped version NOT the unzipped) and it will automatically unzip it and read the needed files from it
+
+## calculating the first file
+this code is only to calculate the first file spotify sends you
+1. [executable.exe](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/pretty-print-statements) <-- compiled to exe code (recommended)
+2. [executable file](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/executable/src/executable.py) <-- non-compiled executable python code (recommended if running code directly)
+3. [the full code](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/reader.py) <-- full python code (this should only be ran if everything else isnt working, this code has debug features to help assist your error(s)) (not recommended)
+
+## calculating the ENTIRE extended streaming history
+to calculate your entire streaming history you can run one of these files
+1. [executable.exe](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/extended-steaming-history) <-- compiled to exe code (recommended)
+2. [executable file](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py) <-- non-compiled executable python code (recommended if running code directly)
+3. [the full code](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/reader.py) <-- once again the fully code just modified to read the extended streaming history (not recommended)
+
+## support/suggestions
+here is my [discord](https://discord.com/users/488368000055902228) (._ayo)  
+
+and heres a [discord server](https://discord.gg/rP63gxfKQJ) that is for all my coding projects plus more help (https://discord.gg/rP63gxfKQJ)
+
+## how to get your extended streaming history
+step 1. go to https://www.spotify.com/ca-en/account/privacy/ and do the following
+![see here](/ReadmeImages/jeez.png)
+
+
+step 2.  check your email after requesting and you should get something that looks like this
+![see here](/ReadmeImages/Email.png)
+
+step 3. wait (usually the worse part) the extended streaming history can take from 2 weeks - 1 month, while the "account data" will take probably a couple days
