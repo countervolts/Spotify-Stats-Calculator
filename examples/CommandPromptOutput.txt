@@ -1,31 +1,30 @@
-Total streams: 11,716
-Total minutes streamed: 22,933.4
-Total hours streamed: 382.2
-Different tracks: 1,705
-Different artists: 798
+Total streams: 74,656
+Total minutes streamed: 139,724.33
+Total hours streamed: 2,328.7
+Different tracks: 5,187
+Different artists: 2,047
 
 Top 10 Most Streamed Artists:
 ------------------------------
-1. "$uicideboy$" - 71.1 hours (4,266.00 minutes)     
-2. "Kanye West" - 62.0 hours (3,720.00 minutes)      
-3. "$NOT" - 53.6 hours (3,216.00 minutes)
-4. "Tyler, The Creator" - 13.2 hours (792.00 minutes)
-5. "Joey Bada$$" - 11.1 hours (666.00 minutes)       
-6. "Playboi Carti" - 10.9 hours (654.00 minutes)     
-7. "halberd" - 10.3 hours (618.00 minutes)
-8. "Kudasaibeats" - 7.2 hours (432.00 minutes)       
-9. "Baby Keem" - 6.5 hours (390.00 minutes)
-10. "Ken Carson" - 6.4 hours (384.00 minutes)        
+1. "Kanye West" - 644.2 hours (38,652.00 minutes)       
+2. "$NOT" - 138.4 hours (8,304.00 minutes)
+3. "Tyler, The Creator" - 107.0 hours (6,420.00 minutes)
+4. "Playboi Carti" - 99.2 hours (5,952.00 minutes)      
+5. "$uicideboy$" - 74.3 hours (4,458.00 minutes)        
+6. "Baby Keem" - 53.5 hours (3,210.00 minutes)
+7. "Destroy Lonely" - 46.3 hours (2,778.00 minutes)
+8. "tana" - 44.8 hours (2,688.00 minutes)
+9. "MF DOOM" - 41.7 hours (2,502.00 minutes)
+10. "Lil Uzi Vert" - 40.0 hours (2,400.00 minutes)
 
 Top 10 Most Streamed Tracks:
 ------------------------------
-1. "Kanye West - Runaway" - 6.1 hours (366.00 minutes)
-2. "$uicideboy$ - Whole Lotta Grey" - 5.5 hours (330.00 minutes)
-3. "Kanye West - I Wonder" - 5.2 hours (312.00 minutes)
-4. "Joey Bada$$ - Show Me" - 4.6 hours (276.00 minutes)
-5. "Kanye West - No More Parties In LA" - 4.4 hours (264.00 minutes)
-6. "Kanye West - Devil In A New Dress" - 4.2 hours (252.00 minutes)
-7. "$uicideboy$ - The Number You Have Dialed Is Not in Service" - 4.0 hours (240.00 minutes)
-8. "Kanye West - Gorgeous" - 3.9 hours (234.00 minutes)
-9. "$NOT - Immaculate" - 3.3 hours (198.00 minutes)
-10. "$NOT - GOSHA" - 3.3 hours (198.00 minutes)
+1. "Kanye West - I Wonder" - 244.7 hours (14,682.00 minutes)
+2. "Kanye West - Runaway" - 28.5 hours (1,710.00 minutes)
+3. "Kanye West - Devil In A New Dress" - 24.9 hours (1,494.00 minutes)
+5. "Kanye West - No More Parties In LA" - 23.8 hours (1,428.00 minutes)
+6. "Tyler, The Creator - GONE, GONE / THANK YOU" - 23.1 hours (1,386.00 minutes)
+7. "tana - Antisocial 2" - 19.0 hours (1,140.00 minutes)
+8. "tana - off the leash! (feat. yvngxchris and Luisss)" - 18.5 hours (1,110.00 minutes)
+9. "Kanye West - Ghost Town" - 18.2 hours (1,092.00 minutes)
+10. "Kanye West - Touch The Sky" - 17.4 hours (1,044.00 minutes)
