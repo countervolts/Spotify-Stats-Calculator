@@ -89,6 +89,10 @@ if FullyAutomatic:
     scan_dirs = [os.path.join(home_dir, dir_name) for dir_name in ['Downloads']]
     total_files = {dir_name: sum(len(files) for r, d, files in os.walk(dir_name)) for dir_name in scan_dirs}
 
+    print("\n================== Scanning Directories ==================\n")
+    for dir_name in scan_dirs:
+        print(f"Next: {os.path.basename(dir_name)} (Files: {total_files[dir_name]}/{total_files[dir_name]})")
+
     print("\n================== File Count ==================\n")
     for dir_name in scan_dirs:
         print(f"Directory: {os.path.basename(dir_name)}")
