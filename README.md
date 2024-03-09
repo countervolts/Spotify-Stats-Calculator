@@ -36,3 +36,6 @@ step 2.  check your email after requesting and you should get something that loo
 ![see here](/ReadmeImages/Email.png)
 
 step 3. wait (usually the worse part) the extended streaming history can take from 2 weeks - 1 month, while the "account data" will take probably a couple days
+
+### pylint
+pylint rates my code a 7.16/10
