@@ -38,4 +38,8 @@ step 2.  check your email after requesting and you should get something that loo
 step 3. wait (usually the worse part) the extended streaming history can take from 2 weeks - 1 month, while the "account data" will take probably a couple days
 
 ### pylint
-pylint rates my code a 7.16/10
+pylint rates the following
+
+[reader.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/reader.py) - 7.16/10
+
+[executable.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py) - 8.33/10
