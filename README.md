@@ -1,4 +1,4 @@
-how to get history [here](https://github.com/countervolts/Spotify-Stats-Calculator/edit/main/README.md#how-to-get-your-extended-streaming-history)
+how to get history [here](https://github.com/countervolts/Spotify-Stats-Calculator?tab=readme-ov-file#how-to-get-your-extended-streaming-history)
 ## how to run the code
 so when you request you data spotify will send 2 emails (not including the one they send when you first request)
 
