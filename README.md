@@ -22,6 +22,14 @@ to calculate your entire streaming history you can run one of these files
 2. [executable file](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py) <-- non-compiled executable python code (recommended if running code directly)
 3. [the full code](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/reader.py) <-- once again the fully code just modified to read the extended streaming history (not recommended)
 
+## examples!
+Some examples can be found here!
+
+[Command Prompt Output](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/examples/CommandPromptOutput.txt)
+
+[Stats.txt Output](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/examples/Stats.txt)
+
+Note that the examples will be the same for both the extended streaming history and aswell the my account data (1 year streaming history)
 ## support/suggestions
 here is my [discord](https://discord.com/users/488368000055902228) (._ayo)  
 
