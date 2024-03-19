@@ -4,6 +4,7 @@ import glob
 import zipfile
 import pandas as pd
 from tqdm import tqdm
+import re
 
 current_dir = os.path.dirname(os.path.realpath(__file__))
 home_dir = os.path.expanduser("~")
@@ -78,6 +79,8 @@ downloads_dir = os.path.join(os.path.expanduser('~'), 'Downloads')
 for file in selected_files:
     file_name = os.path.basename(file)  # Get the base name of the file
     file_dir = os.path.join(downloads_dir, 'Spotify Account Data', file_name)  # Join downloads_dir with 'Spotify Account Data' and the base name of the file
+    df = pd.read_json(file_dir)  # Read the JSON file into a dataframe
+    data.append(df)  # Append the dataframe to the data list
 
 # Concatenate all the dataframes
 df = pd.concat(data, ignore_index=True)
@@ -131,6 +134,43 @@ for i, ((artist, track), time) in enumerate(top_50_tracks.items(), start=1):
     minutes = time * 60
     print(f'{i}. "{artist} - {track}" - {time} hours ({minutes:,.2f} minutes)')
 
+# Create a new directory in the user's downloads folder
+downloads_dir = os.path.expanduser('~/Downloads')
+spotify_stats_dir = os.path.join(downloads_dir, 'SpotifyStats')
+os.makedirs(spotify_stats_dir, exist_ok=True)
+
+# Create a new directory for the artist files
+artists_dir = os.path.join(spotify_stats_dir, 'Artists')
+os.makedirs(artists_dir, exist_ok=True)
+
+num_artists = int(input("\nHow many top artists would you like to create a file for?: "))
+
+top_artists = grouped_artist.sort_values(ascending=False).head(num_artists)
+
+for artist in top_artists.index:
+    # Get the data for this artist
+    artist_df = df[df['artistName'] == artist]
+
+    # Get the top 10 most played songs by this artist
+    top_songs = artist_df.groupby('trackName')['msPlayed'].sum().sort_values(ascending=False).head(10)
+
+    # Calculate some statistics about the artist
+    total_time = artist_df['msPlayed'].sum()
+    first_listened = artist_df['endTime'].min()
+    different_tracks = artist_df['trackName'].nunique()
+
+    # Create a new file named after the artist in the Artists directory
+    with open(os.path.join(artists_dir, f"{artist}.txt"), 'w', encoding='utf-8') as f:
+        # Write the statistics about the artist to the file with formatting
+        f.write(f"Total streaming time: {total_time:,.2f} minutes\n")
+        f.write(f"First time streamed: {first_listened}\n")
+        f.write(f"Different tracks: {different_tracks:,}\n\n")
+
+        # Write the top 10 most played songs by the artist to the file
+        f.write("Top 10 Most Streamed Tracks:\n")
+        for song, time in top_songs.items():
+            f.write(f"{song} - {time:,.2f} minutes\n")
+
 customize = input('\nWould you like to customize Stats.txt? (Auto generation includes the top 50 songs and artists) (y/n): ')
 if customize.lower() == 'y':
     max_artists = len(df['artistName'].unique())
@@ -153,7 +193,7 @@ else:
     top_artists = top_50_artists
     top_tracks = top_50_tracks
 
-with open('Stats.txt', 'w', encoding='utf-8') as f:
+with open(os.path.join(spotify_stats_dir, 'Stats.txt'), 'w', encoding='utf-8') as f:
     f.write(f"Total streams: {streams:,}\n")
     f.write(f"Total minutes streamed: {round(minutes_streamed, 2):,}\n")
     f.write(f"Total hours streamed: {hours_streamed:,}\n")
@@ -190,6 +230,6 @@ with open('Stats.txt', 'w', encoding='utf-8') as f:
         f.write(f'   -> listened for {time} hours ({minutes:,.2f} minutes)\n')
         f.write(f'   -> first listened on {first_listened}\n\n')
 
-print("\nStats.txt successfully written to {}/Stats.txt".format(os.getcwd()))
+print("\nStats.txt successfully written to {}/Stats.txt".format(spotify_stats_dir))
 print("\nIt contains the following: ")
 print(f"{num_artists} artists and {num_songs} songs")
