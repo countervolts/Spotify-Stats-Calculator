@@ -1,3 +1,11 @@
+### status
+as of 03-19-24 im only updating the executable files
+
+[non-extended streaming history here (source code)](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/executable/src/executable.py)
+- [compiled ver](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/pretty-print-statements)
+
+[fully streaming history here (source code)](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py)
+- [compiled ver](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/extended-steaming-history)
 ### fast links
 how to get history [here](https://github.com/countervolts/Spotify-Stats-Calculator?tab=readme-ov-file#how-to-get-your-extended-streaming-history)
 
