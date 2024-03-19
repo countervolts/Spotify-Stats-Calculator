@@ -175,11 +175,6 @@ for artist in top_artists.index:
         for song, time in top_songs.items():
             f.write(f"{song} - {time:,.2f} minutes\n")
 
-        # Write the statistics about the artist to the file
-        f.write(f"\nTotal streaming time: {total_streaming_time} minutes\n")
-        f.write(f"First time streamed: {first_time_streamed}\n")
-        f.write(f"Different tracks: {different_tracks}\n")
-
 customize = input('\nWould you like to customize Stats.txt? (Auto generation includes the top 50 songs and artists) (y/n): ')
 if customize.lower() == 'y':
     max_artists = len(df['master_metadata_album_artist_name'].unique())
