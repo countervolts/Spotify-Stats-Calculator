@@ -137,7 +137,49 @@ for i, ((artist, track), time) in enumerate(top_50_tracks.items(), start=1):
         break
     minutes = time * 60
     print(f'{i}. "{artist} - {track}" - {time} hours ({minutes:,.2f} minutes)')
-    
+
+# Create a new directory in the user's downloads folder
+downloads_dir = os.path.expanduser('~/Downloads')
+spotify_stats_dir = os.path.join(downloads_dir, 'SpotifyStats')
+os.makedirs(spotify_stats_dir, exist_ok=True)
+
+# Create a new directory for the artist files
+artists_dir = os.path.join(spotify_stats_dir, 'Artists')
+os.makedirs(artists_dir, exist_ok=True)
+
+num_top_artists = int(input("\nHow many top artists do you want to create a file for?: "))
+
+top_artists = grouped_artist.sort_values(ascending=False).head(num_top_artists)
+
+for artist in top_artists.index:
+    # Get the data for this artist
+    artist_data = df[df['master_metadata_album_artist_name'] == artist]
+
+    # Get the top 10 most played songs by this artist
+    top_songs = artist_data.groupby('master_metadata_track_name')['ms_played'].sum().sort_values(ascending=False).head(10)
+
+    # Calculate some statistics about the artist
+    total_streaming_time = artist_data['ms_played'].sum()
+    first_time_streamed = artist_data['ts'].min()
+    different_tracks = artist_data['master_metadata_track_name'].nunique()
+
+    # Create a new file named after the artist in the Artists directory
+    with open(os.path.join(artists_dir, f"{artist}.txt"), 'w', encoding='utf-8') as f:
+        # Write the statistics about the artist to the file with formatting
+        f.write(f"Total streaming time: {total_streaming_time:,.2f} minutes\n")
+        f.write(f"First time streamed: {first_time_streamed}\n")
+        f.write(f"Different tracks: {different_tracks:,}\n\n")
+
+        # Write the top 10 most played songs by the artist to the file
+        f.write("Top 10 Most Played Songs:\n")
+        for song, time in top_songs.items():
+            f.write(f"{song} - {time:,.2f} minutes\n")
+
+        # Write the statistics about the artist to the file
+        f.write(f"\nTotal streaming time: {total_streaming_time} minutes\n")
+        f.write(f"First time streamed: {first_time_streamed}\n")
+        f.write(f"Different tracks: {different_tracks}\n")
+
 customize = input('\nWould you like to customize Stats.txt? (Auto generation includes the top 50 songs and artists) (y/n): ')
 if customize.lower() == 'y':
     max_artists = len(df['master_metadata_album_artist_name'].unique())
@@ -160,7 +202,7 @@ else:
     top_artists = top_50_artists
     top_tracks = top_50_tracks
 
-with open('Stats.txt', 'w', encoding='utf-8') as f:
+with open(os.path.join(spotify_stats_dir, 'Stats.txt'), 'w', encoding='utf-8') as f:
     f.write(f"Total streams: {streams:,}\n")
     f.write(f"Total minutes streamed: {round(minutes_streamed, 2):,}\n")
     f.write(f"Total hours streamed: {hours_streamed:,}\n")
@@ -197,6 +239,6 @@ with open('Stats.txt', 'w', encoding='utf-8') as f:
         f.write(f'   -> listened for {time} hours ({minutes:,.2f} minutes)\n')
         f.write(f'   -> first listened on {first_listened}\n\n')
 
-print("\nStats.txt successfully written to {}/Stats.txt".format(os.getcwd()))
+print("\nStats.txt successfully written to {}/Stats.txt".format(spotify_stats_dir))
 print("\nIt contains the following: ")
 print(f"{num_artists} artists and {num_songs} songs")
