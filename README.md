@@ -56,6 +56,6 @@ step 3. wait (usually the worse part) the extended streaming history can take fr
 ### pylint
 pylint rates the following
 
-[reader.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/reader.py) - 7.16/10
+[reader.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/reader.py) - 7.16/10 <--- no longer being updated
 
-[executable.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py) - 8.33/10
+[executable.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py) - 8.49/10 (previous run: 8.33/10, +0.15)
