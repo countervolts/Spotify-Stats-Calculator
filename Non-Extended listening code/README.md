@@ -5,6 +5,6 @@ please read the readme.md within the github repo (not this one) to further under
 ### pylint
 pylint rates the following
 
-[reader.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/reader.py) - 7.30/10
+[reader.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/reader.py) - 7.30/10 <--- no longer being updated
 
-[executable.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/executable/src/executable.py) - 8.61/10
+[executable.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/executable/src/executable.py) - 8.62/10 (previous run: 8.49/10, +0.13)
