@@ -1,11 +1,11 @@
 ### status
 as of 03-19-24 im only updating the executable files
 
-[non-extended streaming history here (source code)](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/executable/src/executable.py)
-- [compiled ver](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/pretty-print-statements)
+[non-extended streaming history here (source code)](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/executable/src/executable.py) <--- will continue to receive updated
+- [compiled ver](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/pretty-print-statements) <--- will continue to receive updated
 
-[fully streaming history here (source code)](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py)
-- [compiled ver](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/extended-steaming-history)
+[fully streaming history here (source code)](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py) <--- will continue to receive updated
+- [compiled ver](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/extended-steaming-history) <--- will continue to receive updated
 
 [non-extended streaming history here (reader.py)](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/reader.py) <--- discontinued (last update march 8 2024)
 
