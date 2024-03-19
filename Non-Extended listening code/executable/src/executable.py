@@ -4,7 +4,6 @@ import glob
 import zipfile
 import pandas as pd
 from tqdm import tqdm
-import re
 
 current_dir = os.path.dirname(os.path.realpath(__file__))
 home_dir = os.path.expanduser("~")
