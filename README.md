@@ -7,6 +7,8 @@ as of 03-19-24 im only updating the executable files
 [fully streaming history here (source code)](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py) <--- will continue to receive updated
 - [compiled ver](https://github.com/countervolts/Spotify-Stats-Calculator/releases/tag/extended-steaming-history) <--- will continue to receive updated
 
+
+### discontinued
 [non-extended streaming history here (reader.py)](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/reader.py) <--- discontinued (last update march 8 2024)
 
 [fully streaming history here (reader.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/reader.py) <--- discontinued (last update march 8 2024)
