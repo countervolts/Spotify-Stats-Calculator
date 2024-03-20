@@ -142,7 +142,10 @@ os.makedirs(spotify_stats_dir, exist_ok=True)
 artists_dir = os.path.join(spotify_stats_dir, 'Artists')
 os.makedirs(artists_dir, exist_ok=True)
 
-num_artists = int(input("\nHow many top artists would you like to create a file for?: "))
+max_artists = len(df['artistName'].unique())
+max_songs = len(df['trackName'].unique())
+
+num_artists = int(input(f"\nHow many top artists do you want to create a file for? (Max: {max_artists}): "))
 
 top_artists = grouped_artist.sort_values(ascending=False).head(num_artists)
 
@@ -229,6 +232,13 @@ with open(os.path.join(spotify_stats_dir, 'Stats.txt'), 'w', encoding='utf-8') a
         f.write(f'   -> listened for {time} hours ({minutes:,.2f} minutes)\n')
         f.write(f'   -> first listened on {first_listened}\n\n')
 
-print("\nStats.txt successfully written to {}/Stats.txt".format(spotify_stats_dir))
-print("\nIt contains the following: ")
-print(f"{num_artists} artists and {num_songs} songs")
+print(f"\SpotifyStats successfully written to {os.path.expanduser('~/Downloads/SpotifyStats')}")
+
+for dirpath, dirnames, filenames in os.walk(os.path.expanduser('~/Downloads/SpotifyStats')):
+    print(f'\n{dirpath}')
+    for filename in filenames:
+        print(f'├── {filename}')
+
+input("\nPress Enter to view you stats :)")
+
+os.system("start " + os.path.expanduser('~/Downloads/SpotifyStats'))
