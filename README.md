@@ -65,4 +65,4 @@ pylint rates the following
 
 [reader.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/reader.py) - 7.16/10 <--- no longer being updated
 
-[executable.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py) - 8.49/10 (previous run: 8.33/10, +0.15)
+[executable.py](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/executable/src/executable.py) - 8.56/10 (previous run: 8.72/10, -0.16)
