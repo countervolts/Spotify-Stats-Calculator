@@ -1,0 +1,611 @@
+Total streams: 74,656
+Total minutes streamed: 139,724.33
+Total hours streamed: 2,328.7
+Different tracks: 51
+Different artists: 2,047
+
+Top 60 Most Streamed Artists:
+------------------------------
+"Kanye West" listened for 644.2 hours (38,652.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Champion
+   -> total listening time: 644.2 hours (38,652.00 minutes)
+   -> most streamed song: I Wonder - 244.7 hours (14,679.42 minutes)
+
+"$NOT" listened for 138.4 hours (8,304.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Moon & Stars (feat. Maggie Lindemann)
+   -> total listening time: 138.4 hours (8,304.00 minutes)
+   -> most streamed song: GOSHA - 13.5 hours (812.67 minutes)
+
+"Tyler, The Creator" listened for 107.0 hours (6,420.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: GONE, GONE / THANK YOU
+   -> total listening time: 107.0 hours (6,420.00 minutes)
+   -> most streamed song: GONE, GONE / THANK YOU - 23.1 hours (1,388.36 minutes)
+
+"Playboi Carti" listened for 99.2 hours (5,952.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Vamp Anthem
+   -> total listening time: 99.2 hours (5,952.00 minutes)
+   -> most streamed song: Magnolia - 12.2 hours (732.80 minutes)
+
+"$uicideboy$" listened for 74.3 hours (4,458.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: If You Were to Get What You Deserve, You Would Know What the Bottom of a Tire Tastes Like
+   -> total listening time: 74.3 hours (4,458.00 minutes)
+   -> most streamed song: Whole Lotta Grey - 5.5 hours (331.08 minutes)
+
+"Baby Keem" listened for 53.5 hours (3,210.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: no sense
+   -> total listening time: 53.5 hours (3,210.00 minutes)
+   -> most streamed song: trademark usa - 12.5 hours (751.45 minutes)
+
+"Destroy Lonely" listened for 46.3 hours (2,778.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: VTMNTSCOAT
+   -> total listening time: 46.3 hours (2,778.00 minutes)
+   -> most streamed song: vvs valentine - 6.2 hours (373.67 minutes)
+
+"tana" listened for 44.8 hours (2,688.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Antisocial (feat. Slump6s)
+   -> total listening time: 44.8 hours (2,688.00 minutes)
+   -> most streamed song: Antisocial 2 - 19.0 hours (1,141.29 minutes)
+
+"MF DOOM" listened for 41.7 hours (2,502.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Rhymes Like Dimes
+   -> total listening time: 41.7 hours (2,502.00 minutes)
+   -> most streamed song: Doomsday - 6.7 hours (400.46 minutes)
+
+"Lil Uzi Vert" listened for 40.0 hours (2,400.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: New Patek
+   -> total listening time: 40.0 hours (2,400.00 minutes)
+   -> most streamed song: 7AM - 8.4 hours (504.31 minutes)
+
+"XXXTENTACION" listened for 36.1 hours (2,166.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Look At Me!
+   -> total listening time: 36.1 hours (2,166.00 minutes)
+   -> most streamed song: vice city - 8.1 hours (483.92 minutes)
+
+"Kendrick Lamar" listened for 32.8 hours (1,968.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: HUMBLE.
+   -> total listening time: 32.8 hours (1,968.00 minutes)
+   -> most streamed song: PRIDE. - 6.9 hours (415.28 minutes)
+
+"Yeat" listened for 32.4 hours (1,944.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Gët Busy
+   -> total listening time: 32.4 hours (1,944.00 minutes)
+   -> most streamed song: Flawlëss (feat. Lil Uzi Vert) - 6.8 hours (410.82 minutes)
+
+"JAY-Z" listened for 30.5 hours (1,830.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Why I Love You
+   -> total listening time: 30.5 hours (1,830.00 minutes)
+   -> most streamed song: Primetime - 8.3 hours (497.00 minutes)
+
+"Ken Carson" listened for 22.2 hours (1,332.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Go
+   -> total listening time: 22.2 hours (1,332.00 minutes)
+   -> most streamed song: MDMA (feat. Destroy Lonely) - 10.3 hours (618.50 minutes)
+
+"21 Savage" listened for 21.7 hours (1,302.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Dip Dip
+   -> total listening time: 21.7 hours (1,302.00 minutes)
+   -> most streamed song: a lot - 3.5 hours (209.03 minutes)
+
+"Chief Keef" listened for 20.2 hours (1,212.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Hate Bein' Sober
+   -> total listening time: 20.2 hours (1,212.00 minutes)
+   -> most streamed song: Hate Bein' Sober - 7.5 hours (451.82 minutes)
+
+"Cochise" listened for 19.8 hours (1,188.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: POCKET ROCKET
+   -> total listening time: 19.8 hours (1,188.00 minutes)
+   -> most streamed song: Tell Em - 8.0 hours (481.15 minutes)
+
+"Travis Scott" listened for 19.7 hours (1,182.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: sdp interlude
+   -> total listening time: 19.7 hours (1,182.00 minutes)
+   -> most streamed song: 5% TINT - 7.3 hours (439.84 minutes)
+
+"DaBaby" listened for 17.4 hours (1,044.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: ROOF
+   -> total listening time: 17.4 hours (1,044.00 minutes)
+   -> most streamed song: Suge - 4.3 hours (257.13 minutes)
+
+"Trippie Redd" listened for 16.5 hours (990.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Miss The Rage (feat. Playboi Carti)
+   -> total listening time: 16.5 hours (990.00 minutes)
+   -> most streamed song: Dark Knight Dummo - 5.9 hours (351.26 minutes)
+
+"Joey Bada$$" listened for 16.4 hours (984.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Survival Tactics
+   -> total listening time: 16.4 hours (984.00 minutes)
+   -> most streamed song: Righteous Minds - 6.0 hours (361.39 minutes)
+
+"Drake" listened for 15.6 hours (936.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: No Friends In The Industry
+   -> total listening time: 15.6 hours (936.00 minutes)
+   -> most streamed song: Champagne Poetry - 2.4 hours (144.57 minutes)
+
+"DC The Don" listened for 14.6 hours (876.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Free Falling!
+   -> total listening time: 14.6 hours (876.00 minutes)
+   -> most streamed song: ENEMIES - 4.2 hours (249.72 minutes)
+
+"KIDS SEE GHOSTS" listened for 14.6 hours (876.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Reborn
+   -> total listening time: 14.6 hours (876.00 minutes)
+   -> most streamed song: 4th Dimension - 9.2 hours (554.71 minutes)
+
+"halberd" listened for 14.0 hours (840.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: coffee on the beach.
+   -> total listening time: 14.0 hours (840.00 minutes)
+   -> most streamed song: coffee on the beach. - 2.6 hours (157.96 minutes)
+
+"Shokaii" listened for 13.8 hours (828.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: I Think I'll Lose My Mind In Hysteria
+   -> total listening time: 13.8 hours (828.00 minutes)
+   -> most streamed song: I Think I'll Lose My Mind In Hysteria - 13.8 hours (829.38 minutes)
+
+"PHOROMANE" listened for 11.0 hours (660.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: KILLASTORE
+   -> total listening time: 11.0 hours (660.00 minutes)
+   -> most streamed song: SALVATORE - 1.5 hours (90.84 minutes)
+
+"XANAKIN SKYWOK" listened for 10.2 hours (612.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Macho!
+   -> total listening time: 10.2 hours (612.00 minutes)
+   -> most streamed song: Macho! - 3.2 hours (194.91 minutes)
+
+"Tay-K" listened for 10.0 hours (600.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: The Race - Remix
+   -> total listening time: 10.0 hours (600.00 minutes)
+   -> most streamed song: The Race - Remix - 8.5 hours (511.91 minutes)
+
+"Ski Mask The Slump God" listened for 9.7 hours (582.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Burn The Hoods
+   -> total listening time: 9.7 hours (582.00 minutes)
+   -> most streamed song: Burn The Hoods - 3.5 hours (207.60 minutes)
+
+"Kid Cudi" listened for 9.7 hours (582.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Mr. Rager
+   -> total listening time: 9.7 hours (582.00 minutes)
+   -> most streamed song: Mr. Rager - 6.9 hours (414.81 minutes)
+
+"Kudasaibeats" listened for 9.4 hours (564.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Technicolor
+   -> total listening time: 9.4 hours (564.00 minutes)
+   -> most streamed song: Technicolor - 1.6 hours (93.51 minutes)
+
+"1nonly" listened for 9.0 hours (540.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Zoom!
+   -> total listening time: 9.0 hours (540.00 minutes)
+   -> most streamed song: DANCE! - 1.6 hours (97.80 minutes)
+
+"Don Toliver" listened for 9.0 hours (540.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Drugs N Hella Melodies (feat. Kali Uchis)
+   -> total listening time: 9.0 hours (540.00 minutes)
+   -> most streamed song: BOGUS - 1.7 hours (104.32 minutes)
+
+"Luh Shotty" listened for 8.7 hours (522.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Who Got the Wok
+   -> total listening time: 8.7 hours (522.00 minutes)
+   -> most streamed song: Who Got the Wok - 8.6 hours (515.95 minutes)
+
+"Freddie Dredd" listened for 8.7 hours (522.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: WTH
+   -> total listening time: 8.7 hours (522.00 minutes)
+   -> most streamed song: All Alone - 4.9 hours (294.53 minutes)
+
+"ripcheetxh" listened for 8.4 hours (504.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: exlipse
+   -> total listening time: 8.4 hours (504.00 minutes)
+   -> most streamed song: exlipse - 8.4 hours (501.06 minutes)
+
+"Promyse" listened for 8.4 hours (504.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Na
+   -> total listening time: 8.4 hours (504.00 minutes)
+   -> most streamed song: Run, Ricky! Run! - 4.7 hours (281.43 minutes)
+
+"midwxst" listened for 7.6 hours (456.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: No Smoke (feat. DC The Don)
+   -> total listening time: 7.6 hours (456.00 minutes)
+   -> most streamed song: No Smoke (feat. DC The Don) - 7.5 hours (450.14 minutes)
+
+"Westside Gunn" listened for 7.4 hours (444.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: 327 (feat. Tyler, The Creator & Billie Essco)
+   -> total listening time: 7.4 hours (444.00 minutes)
+   -> most streamed song: 327 (feat. Tyler, The Creator & Billie Essco) - 7.3 hours (438.95 minutes)
+
+"siouxxie sixxsta" listened for 7.0 hours (420.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: masquerade
+   -> total listening time: 7.0 hours (420.00 minutes)
+   -> most streamed song: masquerade - 6.0 hours (360.47 minutes)
+
+"Nardo Wick" listened for 6.7 hours (402.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Who Want Smoke?? (feat. G Herbo, Lil Durk & 21 Savage)
+   -> total listening time: 6.7 hours (402.00 minutes)
+   -> most streamed song: Who Want Smoke?? (feat. G Herbo, Lil Durk & 21 Savage) - 6.7 hours (399.73 minutes)
+
+"SSGKobe" listened for 6.5 hours (390.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: thrax
+   -> total listening time: 6.5 hours (390.00 minutes)
+   -> most streamed song: Calabasas - 3.1 hours (186.11 minutes)
+
+"Migos" listened for 6.4 hours (384.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Need It
+   -> total listening time: 6.4 hours (384.00 minutes)
+   -> most streamed song: Bad and Boujee (feat. Lil Uzi Vert) - 3.9 hours (236.13 minutes)
+
+"Denzel Curry" listened for 6.4 hours (384.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: CASH MANIAC | CAZH MAN1AC [FEAT. NYYJERYA]
+   -> total listening time: 6.4 hours (384.00 minutes)
+   -> most streamed song: BLACK BALLOONS | 13LACK 13ALLOONZ [FEAT. TWELVE'LEN & GOLDLINK | TWELVE'LEN + GOLDL1NK] - 3.8 hours (228.94 minutes)
+
+"YungManny" listened for 6.1 hours (366.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Bitcoin - Big Spender Remix
+   -> total listening time: 6.1 hours (366.00 minutes)
+   -> most streamed song: Bitcoin - 3.6 hours (214.50 minutes)
+
+"Childish Gambino" listened for 5.9 hours (354.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: 3005
+   -> total listening time: 5.9 hours (354.00 minutes)
+   -> most streamed song: Redbone - 5.1 hours (304.49 minutes)
+
+"Ice Cube" listened for 5.9 hours (354.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: You Know How We Do It
+   -> total listening time: 5.9 hours (354.00 minutes)
+   -> most streamed song: You Know How We Do It - 3.0 hours (178.29 minutes)
+
+"Cuco" listened for 5.7 hours (342.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Lover Is a Day
+   -> total listening time: 5.7 hours (342.00 minutes)
+   -> most streamed song: Lover Is a Day - 5.7 hours (342.68 minutes)
+
+"che" listened for 5.6 hours (336.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: agenda
+   -> total listening time: 5.6 hours (336.00 minutes)
+   -> most streamed song: agenda - 3.5 hours (212.86 minutes)
+
+"The Game" listened for 5.5 hours (330.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Eazy
+   -> total listening time: 5.5 hours (330.00 minutes)
+   -> most streamed song: Eazy - 5.5 hours (327.67 minutes)
+
+"Future" listened for 5.4 hours (324.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Wicked
+   -> total listening time: 5.4 hours (324.00 minutes)
+   -> most streamed song: March Madness - 2.4 hours (142.36 minutes)
+
+"Whethan" listened for 5.4 hours (324.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: LOCK IT UP (feat. Yeat, midwxst & Matt Ox)
+   -> total listening time: 5.4 hours (324.00 minutes)
+   -> most streamed song: LOCK IT UP (feat. Yeat, midwxst & Matt Ox) - 5.4 hours (321.06 minutes)
+
+"Steve Lacy" listened for 5.2 hours (312.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Dark Red
+   -> total listening time: 5.2 hours (312.00 minutes)
+   -> most streamed song: Bad Habit - 2.2 hours (131.21 minutes)
+
+"Young Nudy" listened for 5.1 hours (306.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: EA (feat. 21 Savage)
+   -> total listening time: 5.1 hours (306.00 minutes)
+   -> most streamed song: EA (feat. 21 Savage) - 4.6 hours (277.23 minutes)
+
+"SoFaygo" listened for 5.0 hours (300.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Seven
+   -> total listening time: 5.0 hours (300.00 minutes)
+   -> most streamed song: Masquerade - 2.0 hours (120.52 minutes)
+
+"Metro Boomin" listened for 5.0 hours (300.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Space Cadet (feat. Gunna)
+   -> total listening time: 5.0 hours (300.00 minutes)
+   -> most streamed song: Space Cadet (feat. Gunna) - 2.8 hours (167.17 minutes)
+
+"Beach House" listened for 4.9 hours (294.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: Space Song
+   -> total listening time: 4.9 hours (294.00 minutes)
+   -> most streamed song: Space Song - 4.8 hours (289.79 minutes)
+
+"Mr.Kitty" listened for 4.9 hours (294.00 minutes)
+   -> first listened on: 2021-10-25
+   -> first song streamed: After Dark
+   -> total listening time: 4.9 hours (294.00 minutes)
+   -> most streamed song: After Dark - 4.9 hours (295.99 minutes)
+
+
+Top 60 Most Streamed Tracks:
+------------------------------
+"Kanye West - I Wonder"
+   -> listened for 244.7 hours (14,682.00 minutes)
+   -> first listened on 2022-01-07
+
+"Kanye West - Runaway"
+   -> listened for 28.5 hours (1,710.00 minutes)
+   -> first listened on 2022-04-16
+
+"Kanye West - Devil In A New Dress"
+   -> listened for 24.9 hours (1,494.00 minutes)
+   -> first listened on 2022-04-13
+
+"Kanye West - We Major"
+   -> listened for 24.4 hours (1,464.00 minutes)
+   -> first listened on 2022-05-16
+
+"Kanye West - No More Parties In LA"
+   -> listened for 23.8 hours (1,428.00 minutes)
+   -> first listened on 2021-12-11
+
+"Tyler, The Creator - GONE, GONE / THANK YOU"
+   -> listened for 23.1 hours (1,386.00 minutes)
+   -> first listened on 2021-10-31
+
+"tana - Antisocial 2"
+   -> listened for 19.0 hours (1,140.00 minutes)
+   -> first listened on 2022-03-29
+
+"tana - off the leash! (feat. yvngxchris and Luisss)"
+   -> listened for 18.5 hours (1,110.00 minutes)
+   -> first listened on 2022-01-15
+
+"Kanye West - Ghost Town"
+   -> listened for 18.2 hours (1,092.00 minutes)
+   -> first listened on 2021-12-11
+
+"Kanye West - Touch The Sky"
+   -> listened for 17.4 hours (1,044.00 minutes)
+   -> first listened on 2022-04-18
+
+"Kanye West - Gorgeous"
+   -> listened for 16.9 hours (1,014.00 minutes)
+   -> first listened on 2022-04-20
+
+"Kanye West - On Sight"
+   -> listened for 15.6 hours (936.00 minutes)
+   -> first listened on 2022-03-30
+
+"Kanye West - Barry Bonds"
+   -> listened for 14.7 hours (882.00 minutes)
+   -> first listened on 2022-04-15
+
+"Kanye West - Late"
+   -> listened for 14.1 hours (846.00 minutes)
+   -> first listened on 2022-04-17
+
+"Kanye West - Violent Crimes"
+   -> listened for 13.9 hours (834.00 minutes)
+   -> first listened on 2022-04-15
+
+"Kanye West - Bound 2"
+   -> listened for 13.9 hours (834.00 minutes)
+   -> first listened on 2022-04-20
+
+"Shokaii - I Think I'll Lose My Mind In Hysteria"
+   -> listened for 13.8 hours (828.00 minutes)
+   -> first listened on 2023-01-15
+
+"$NOT - GOSHA"
+   -> listened for 13.5 hours (810.00 minutes)
+   -> first listened on 2021-11-20
+
+"$NOT - Doja"
+   -> listened for 12.5 hours (750.00 minutes)
+   -> first listened on 2022-02-14
+
+"Baby Keem - trademark usa"
+   -> listened for 12.5 hours (750.00 minutes)
+   -> first listened on 2022-02-28
+
+"Playboi Carti - Magnolia"
+   -> listened for 12.2 hours (732.00 minutes)
+   -> first listened on 2021-12-11
+
+"Kanye West - Heard 'Em Say"
+   -> listened for 12.0 hours (720.00 minutes)
+   -> first listened on 2022-04-15
+
+"Baby Keem - family ties (with Kendrick Lamar)"
+   -> listened for 11.8 hours (708.00 minutes)
+   -> first listened on 2022-02-16
+
+"Playboi Carti - R.I.P."
+   -> listened for 11.4 hours (684.00 minutes)
+   -> first listened on 2021-12-11
+
+"$NOT - Immaculate"
+   -> listened for 11.0 hours (660.00 minutes)
+   -> first listened on 2022-07-17
+
+"Playboi Carti - Sky"
+   -> listened for 10.9 hours (654.00 minutes)
+   -> first listened on 2021-11-06
+
+"Kanye West - Moon"
+   -> listened for 10.8 hours (648.00 minutes)
+   -> first listened on 2021-12-15
+
+"Kanye West - Everything I Am"
+   -> listened for 10.6 hours (636.00 minutes)
+   -> first listened on 2022-01-07
+
+"Ken Carson - MDMA (feat. Destroy Lonely)"
+   -> listened for 10.3 hours (618.00 minutes)
+   -> first listened on 2022-07-19
+
+"Kanye West - All Mine"
+   -> listened for 9.9 hours (594.00 minutes)
+   -> first listened on 2022-04-17
+
+"KIDS SEE GHOSTS - 4th Dimension"
+   -> listened for 9.2 hours (552.00 minutes)
+   -> first listened on 2022-04-28
+
+"Baby Keem - range brothers (with Kendrick Lamar)"
+   -> listened for 8.7 hours (522.00 minutes)
+   -> first listened on 2022-03-04
+
+"Luh Shotty - Who Got the Wok"
+   -> listened for 8.6 hours (516.00 minutes)
+   -> first listened on 2022-05-03
+
+"Tay-K - The Race - Remix"
+   -> listened for 8.5 hours (510.00 minutes)
+   -> first listened on 2021-12-12
+
+"ripcheetxh - exlipse"
+   -> listened for 8.4 hours (504.00 minutes)
+   -> first listened on 2022-11-14
+
+"Lil Uzi Vert - 7AM"
+   -> listened for 8.4 hours (504.00 minutes)
+   -> first listened on 2022-10-03
+
+"JAY-Z - Primetime"
+   -> listened for 8.3 hours (498.00 minutes)
+   -> first listened on 2022-04-25
+
+"XXXTENTACION - vice city"
+   -> listened for 8.1 hours (486.00 minutes)
+   -> first listened on 2022-03-31
+
+"Cochise - Tell Em"
+   -> listened for 8.0 hours (480.00 minutes)
+   -> first listened on 2021-11-06
+
+"$NOT - Red"
+   -> listened for 7.8 hours (468.00 minutes)
+   -> first listened on 2021-11-22
+
+"midwxst - No Smoke (feat. DC The Don)"
+   -> listened for 7.5 hours (450.00 minutes)
+   -> first listened on 2022-07-19
+
+"Chief Keef - Hate Bein' Sober"
+   -> listened for 7.5 hours (450.00 minutes)
+   -> first listened on 2021-12-11
+
+"Kanye West - Champion"
+   -> listened for 7.4 hours (444.00 minutes)
+   -> first listened on 2021-10-26
+
+"Westside Gunn - 327 (feat. Tyler, The Creator & Billie Essco)"
+   -> listened for 7.3 hours (438.00 minutes)
+   -> first listened on 2022-01-08
+
+"Travis Scott - 5% TINT"
+   -> listened for 7.3 hours (438.00 minutes)
+   -> first listened on 2022-02-15
+
+"tana - Antisocial (feat. Slump6s)"
+   -> listened for 7.2 hours (432.00 minutes)
+   -> first listened on 2021-12-05
+
+"Chief Keef - Love Sosa"
+   -> listened for 6.9 hours (414.00 minutes)
+   -> first listened on 2021-12-11
+
+"Kendrick Lamar - PRIDE."
+   -> listened for 6.9 hours (414.00 minutes)
+   -> first listened on 2022-01-07
+
+"Kid Cudi - Mr. Rager"
+   -> listened for 6.9 hours (414.00 minutes)
+   -> first listened on 2021-12-29
+
+"Yeat - Flawlëss (feat. Lil Uzi Vert)"
+   -> listened for 6.8 hours (408.00 minutes)
+   -> first listened on 2022-09-10
+
+"Kanye West - I Thought About Killing You"
+   -> listened for 6.8 hours (408.00 minutes)
+   -> first listened on 2022-04-15
+
+"Baby Keem - durag activity (with Travis Scott)"
+   -> listened for 6.8 hours (408.00 minutes)
+   -> first listened on 2022-01-15
+
+"Playboi Carti - Go2DaMoon (feat. Kanye West)"
+   -> listened for 6.7 hours (402.00 minutes)
+   -> first listened on 2021-12-11
+
+"Playboi Carti - Shoota (feat. Lil Uzi Vert)"
+   -> listened for 6.7 hours (402.00 minutes)
+   -> first listened on 2021-12-11
+
+"MF DOOM - Doomsday"
+   -> listened for 6.7 hours (402.00 minutes)
+   -> first listened on 2022-05-17
+
+"Nardo Wick - Who Want Smoke?? (feat. G Herbo, Lil Durk & 21 Savage)"
+   -> listened for 6.7 hours (402.00 minutes)
+   -> first listened on 2021-12-16
+
+"XXXTENTACION - infinity (888) - feat. Joey Bada$$"
+   -> listened for 6.6 hours (396.00 minutes)
+   -> first listened on 2021-12-12
+
+"Lil Uzi Vert - New Patek"
+   -> listened for 6.6 hours (396.00 minutes)
+   -> first listened on 2021-10-26
+
+"JAY-Z - Ni**as In Paris"
+   -> listened for 6.5 hours (390.00 minutes)
+   -> first listened on 2022-02-05
+
+"$NOT - PRESSURE"
+   -> listened for 6.5 hours (390.00 minutes)
+   -> first listened on 2022-01-23
+
