@@ -8,7 +8,8 @@ if you would like to compile this on your own heres how to.
 4. wait for it to compile then run
 
 if you get a error with pyinstaller make sure that you have it installed heres how to install it
-1.open cmd
+
+1. open cmd
 2. run the comamnd pip install pyinstaller
 3. wait for it to finish
 4. do the how to compile steps
