@@ -7,6 +7,8 @@ as of 03-19-24 im only updating the executable files
 ### discontinued
 [non-extended streaming history here (reader.py)](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/Non-Extended%20listening%20code/reader.py) <--- discontinued (last update march 8 2024)
 
+[examples](https://github.com/countervolts/Spotify-Stats-Calculator/tree/main/Non-Extended%20listening%20code/examples) <--- these are literally the same as [extended streaming history](https://github.com/countervolts/Spotify-Stats-Calculator/tree/main/examples)
+
 ## what is this?
 this is all the code for the first file/zip that spotify sends you. 
 
