@@ -42,7 +42,7 @@ Some examples can be found here!
 
 [Command Prompt Output](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/examples/CommandPromptOutput.txt)
 
-[Stats.txt Output](https://github.com/countervolts/Spotify-Stats-Calculator/blob/main/examples/Stats.txt)
+[SpotifyStats Folder Output](https://github.com/countervolts/Spotify-Stats-Calculator/tree/main/examples/SpotifyStats)
 
 Note that the examples will be the same for both the extended streaming history and aswell the my account data (1 year streaming history)
 ## support/suggestions
