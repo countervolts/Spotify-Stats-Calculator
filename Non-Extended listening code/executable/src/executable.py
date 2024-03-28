@@ -13,13 +13,6 @@ os.system('cls' if os.name == 'nt' else 'clear')
 def create_progress_bar(max_value):
     return tqdm(total=max_value, bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt}')
 
-print("Disclaimer: The program will scan your Downloads folder.\ntyping I agree will allow the program to scan your downloads.")
-agreement = input("Type 'I agree' to continue: ")
-
-if agreement != 'I agree':
-    print("why? :(")
-    exit(1)
-
 os.system('cls' if os.name == 'nt' else 'clear')
 
 scan_dirs = [os.path.join(home_dir, dir_name) for dir_name in ['Downloads']]
@@ -65,57 +58,51 @@ if progress_bar is not None:
     json_files = []
     for dir_name in scan_dirs:
         json_files.extend(glob.glob(os.path.join(dir_name, '**', 'StreamingHistory_music_*.json'), recursive=True))
-    json_files = [os.path.relpath(file, current_dir) for file in json_files]  # Get the relative paths, not the full paths
+    json_files = [os.path.relpath(file, current_dir) for file in json_files]
 selected_files = json_files
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
 data = []
-missing_msPlayed_files = []  # List to keep track of files missing 'msPlayed'
+missing_msPlayed_files = []
 
 downloads_dir = os.path.join(os.path.expanduser('~'), 'Downloads')
 
 for file in selected_files:
-    file_name = os.path.basename(file)  # Get the base name of the file
-    file_dir = os.path.join(downloads_dir, 'Spotify Account Data', file_name)  # Join downloads_dir with 'Spotify Account Data' and the base name of the file
-    df = pd.read_json(file_dir)  # Read the JSON file into a dataframe
-    data.append(df)  # Append the dataframe to the data list
+    file_name = os.path.basename(file)
+    file_dir = os.path.join(downloads_dir, 'Spotify Account Data', file_name)
+    df = pd.read_json(file_dir)
+    data.append(df) 
 
-# Concatenate all the dataframes
 df = pd.concat(data, ignore_index=True)
 
-# Check if 'msPlayed' is in df columns before performing the operation
 if 'msPlayed' in df.columns:
-    # Convert msPlayed to minutes
     df['msPlayed'] = df['msPlayed'] / 60000
 else:
     print(f"msPlayed column not found in the following JSON files: {', '.join(missing_msPlayed_files)}")
 
-# Group by artistName and sum the msPlayed for each artist
 grouped_artist = df.groupby('artistName')['msPlayed'].sum()
-grouped_artist = grouped_artist.apply(lambda x: round(x/60, 1))  # Convert minutes to hours
-top_50_artists = grouped_artist.sort_values(ascending=False).head(50)  # Get the top 50 artists
+grouped_artist = grouped_artist.apply(lambda x: round(x/60, 1))  
+top_50_artists = grouped_artist.sort_values(ascending=False).head(50)  
 
-# Group by artistName and trackName and sum the msPlayed for each group
 grouped_track = df.groupby(['artistName', 'trackName'])['msPlayed'].sum()
-grouped_track = grouped_track.apply(lambda x: round(x/60, 1))  # Convert minutes to hours
-top_50_tracks = grouped_track.sort_values(ascending=False).head(50)  # Get the top 50 tracks
+grouped_track = grouped_track.apply(lambda x: round(x/60, 1))  
+top_50_tracks = grouped_track.sort_values(ascending=False).head(50)  
 
-# Calculate some statistics
 streams = len(df)
 minutes_streamed = df['msPlayed'].sum()
 hours_streamed = round(minutes_streamed / 60, 1)
 different_tracks = df['trackName'].nunique()
 different_artists = df['artistName'].nunique()
+days_streamed = hours_streamed / 24
 
-# Print the statistics
 print(f"\nTotal streams: {streams:,}")
 print(f"Total minutes streamed: {round(minutes_streamed, 2):,}")
-print(f"Total hours streamed: {hours_streamed:,}")
+print(f"Total hours streamed: {round(hours_streamed, 2):,}")
+print(f"Total days streamed: {round(days_streamed, 2):,}")
 print(f"Different tracks: {different_tracks:,}")
 print(f"Different artists: {different_artists:,}")
 
-# Print the top 10 most streamed artists
 print("\nTop 10 Most Streamed Artists:")
 print("-" * 30)
 for i, (artist, time) in enumerate(top_50_artists.items(), start=1):
@@ -133,12 +120,10 @@ for i, ((artist, track), time) in enumerate(top_50_tracks.items(), start=1):
     minutes = time * 60
     print(f'{i}. "{artist} - {track}" - {time} hours ({minutes:,.2f} minutes)')
 
-# Create a new directory in the user's downloads folder
 downloads_dir = os.path.expanduser('~/Downloads')
 spotify_stats_dir = os.path.join(downloads_dir, 'SpotifyStats')
 os.makedirs(spotify_stats_dir, exist_ok=True)
 
-# Create a new directory for the artist files
 artists_dir = os.path.join(spotify_stats_dir, 'Artists')
 os.makedirs(artists_dir, exist_ok=True)
 
@@ -150,25 +135,15 @@ num_artists = int(input(f"\nHow many top artists do you want to create a file fo
 top_artists = grouped_artist.sort_values(ascending=False).head(num_artists)
 
 for artist in top_artists.index:
-    # Get the data for this artist
     artist_df = df[df['artistName'] == artist]
-
-    # Get the top 10 most played songs by this artist
     top_songs = artist_df.groupby('trackName')['msPlayed'].sum().sort_values(ascending=False).head(10)
-
-    # Calculate some statistics about the artist
     total_time = artist_df['msPlayed'].sum()
     first_listened = artist_df['endTime'].min()
     different_tracks = artist_df['trackName'].nunique()
-
-    # Create a new file named after the artist in the Artists directory
     with open(os.path.join(artists_dir, f"{artist}.txt"), 'w', encoding='utf-8') as f:
-        # Write the statistics about the artist to the file with formatting
         f.write(f"Total streaming time: {total_time:,.2f} minutes\n")
         f.write(f"First time streamed: {first_listened}\n")
         f.write(f"Different tracks: {different_tracks:,}\n\n")
-
-        # Write the top 10 most played songs by the artist to the file
         f.write("Top 10 Most Streamed Tracks:\n")
         for song, time in top_songs.items():
             f.write(f"{song} - {time:,.2f} minutes\n")
@@ -195,11 +170,15 @@ else:
     top_artists = top_50_artists
     top_tracks = top_50_tracks
 
+days_streamed = hours_streamed / 24
+total_unique_tracks = df['trackName'].nunique()
+
 with open(os.path.join(spotify_stats_dir, 'Stats.txt'), 'w', encoding='utf-8') as f:
     f.write(f"Total streams: {streams:,}\n")
     f.write(f"Total minutes streamed: {round(minutes_streamed, 2):,}\n")
     f.write(f"Total hours streamed: {hours_streamed:,}\n")
-    f.write(f"Different tracks: {different_tracks:,}\n")
+    f.write(f"Total days streamed: {round(days_streamed, 2):,}\n")
+    f.write(f"Different tracks: {total_unique_tracks:,}\n")
     f.write(f"Different artists: {different_artists:,}\n\n")
     f.write(f"Top {num_artists} Most Streamed Artists:\n")
     f.write("-" * 30 + "\n")
@@ -214,7 +193,7 @@ with open(os.path.join(spotify_stats_dir, 'Stats.txt'), 'w', encoding='utf-8') a
         most_streamed_song = artist_df.groupby('trackName')['msPlayed'].sum().idxmax()
         most_streamed_song_time = artist_df.groupby('trackName')['msPlayed'].sum().max()
         most_streamed_song_time_hours = round(most_streamed_song_time / 60, 1)
-        f.write(f'"{artist}" listened for {time} hours ({minutes:,.2f} minutes)\n')
+        f.write(f'"{artist}"\n')
         f.write(f'   -> first listened on: {first_listened}\n')
         f.write(f'   -> first song streamed: {first_song}\n')
         f.write(f'   -> total listening time: {time} hours ({minutes:,.2f} minutes)\n')
