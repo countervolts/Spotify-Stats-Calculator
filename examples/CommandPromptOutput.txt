@@ -39,19 +39,4 @@ How many artists would you like to include? (Max: 2048): 60
 How many songs would you like to include? (Max: 5188): 60
 \SpotifyStats successfully written to <folder dir>
 
-<folder dir>
-├── Stats.txt
-
-<folder dir>/Artists
-├── $NOT.txt
-├── $uicideboy$.txt
-├── Baby Keem.txt
-├── Destroy Lonely.txt
-├── Kanye West.txt
-├── Lil Uzi Vert.txt
-├── MF DOOM.txt
-├── Playboi Carti.txt
-├── tana.txt
-├── Tyler, The Creator.txt
-
 Press Enter to view you stats :) (<-- opens <folder dir>)
