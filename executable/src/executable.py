@@ -213,11 +213,6 @@ with open(os.path.join(spotify_stats_dir, 'Stats.txt'), 'w', encoding='utf-8') a
 
 print(f"\SpotifyStats successfully written to {os.path.expanduser('~/Downloads/SpotifyStats')}")
 
-for dirpath, dirnames, filenames in os.walk(os.path.expanduser('~/Downloads/SpotifyStats')):
-    print(f'\n{dirpath}')
-    for filename in filenames:
-        print(f'├── {filename}')
-
 input("\nPress Enter to view you stats :)")
 
 os.system("start " + os.path.expanduser('~/Downloads/SpotifyStats'))
